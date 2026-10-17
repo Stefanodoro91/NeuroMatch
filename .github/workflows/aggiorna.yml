@@ -1,0 +1,43 @@
+# Da caricare nel repository GitHub con questo percorso esatto:
+#   .github/workflows/aggiorna.yml
+#
+# Esegue la pipeline sui server di GitHub ogni notte (e quando lo avvii a mano
+# da Actions → «Aggiorna studi» → «Run workflow»), poi salva nel repository
+# index.html (l'app con i dati reali), trials.json e centri_senza_contatto.csv.
+
+name: Aggiorna studi
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # ogni notte alle 3:00 UTC (le 4 o le 5 in Italia)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa dipendenze
+        run: pip install requests
+
+      - name: Scarica e prepara i dati
+        run: python pipeline.py --partner centri_partner.csv --html app.html -v
+
+      - name: Prepara la pagina pubblica
+        run: cp app_aggiornata.html index.html
+
+      - name: Salva i risultati nel repository
+        run: |
+          git config user.name "neurostudi-bot"
+          git config user.email "neurostudi-bot@users.noreply.github.com"
+          git add index.html trials.json centri_senza_contatto.csv
+          git diff --cached --quiet || git commit -m "Aggiornamento dati $(date +%F)"
+          git push
