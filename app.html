@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NeuroStudi – studi clinici di neurologia in Lombardia, Toscana e Lazio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --fondo: #ECF0F2;
+  --superficie: #FFFFFF;
+  --testo: #17202A;
+  --testo-2: #4A5563;
+  --bordo: #C6CFD6;
+  --accento: #0F5A50;
+  --accento-testo: #FFFFFF;
+  --accento-tenue: #D5E9E4;
+  --partner: #7A4E00;
+  --partner-tenue: #F5E7C8;
+  --avviso: #8C2F1B;
+  --avviso-tenue: #F7E1DA;
+  --fuoco: #1F6FD1;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fondo: #10151B; --superficie: #19212A; --testo: #E6EBEF; --testo-2: #A7B2BD;
+    --bordo: #2F3A46; --accento: #5EC4AF; --accento-testo: #0B1F1B; --accento-tenue: #163832;
+    --partner: #F0C468; --partner-tenue: #382B12; --avviso: #F2A18C; --avviso-tenue: #3A1E17;
+    --fuoco: #7DB4FF; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fondo: #10151B; --superficie: #19212A; --testo: #E6EBEF; --testo-2: #A7B2BD;
+  --bordo: #2F3A46; --accento: #5EC4AF; --accento-testo: #0B1F1B; --accento-tenue: #163832;
+  --partner: #F0C468; --partner-tenue: #382B12; --avviso: #F2A18C; --avviso-tenue: #3A1E17;
+  --fuoco: #7DB4FF; color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--testo);
+  font-family: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 1.1875rem;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+.pagina { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+a { color: var(--accento); text-underline-offset: 0.18em; }
+:focus-visible { outline: 3px solid var(--fuoco); outline-offset: 3px; border-radius: 4px; }
+img, svg { max-width: 100%; }
+
+.marchio { font-weight: 700; font-size: 1rem; color: var(--testo-2); margin: 0 0 2.5rem; display: flex; align-items: center; gap: 0.5rem; }
+.marchio svg { width: 1.6rem; height: 1.6rem; color: var(--accento); }
+h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.12; margin: 0 0 1rem; letter-spacing: -0.01em; max-width: 20ch; }
+.intro { color: var(--testo-2); margin: 0 0 2rem; max-width: 38rem; }
+
+.avviso-demo { background: var(--avviso-tenue); color: var(--avviso); border-radius: 10px; padding: 0.85rem 1rem; margin: 0 0 2rem; font-size: 1rem; }
+.avviso-demo strong { display: block; }
+
+fieldset { border: 0; padding: 0; margin: 0 0 2.25rem; min-width: 0; }
+legend, .etichetta { font-weight: 700; font-size: 1.3rem; margin: 0 0 0.85rem; padding: 0; display: block; }
+
+.scelta-modo { display: inline-flex; background: var(--superficie); border: 2px solid var(--bordo); border-radius: 999px; padding: 4px; gap: 4px; flex-wrap: wrap; }
+.scelta-modo label { position: relative; }
+.scelta-modo input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.scelta-modo span { display: block; padding: 0.55rem 1.1rem; border-radius: 999px; font-size: 1.05rem; }
+.scelta-modo input:checked + span { background: var(--accento); color: var(--accento-testo); font-weight: 700; }
+.scelta-modo input:focus-visible + span { outline: 3px solid var(--fuoco); outline-offset: 2px; }
+
+.gruppi { display: grid; gap: 0.6rem; }
+.gruppo { position: relative; display: block; }
+.gruppo input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.gruppo .corpo {
+  display: grid; grid-template-columns: 1.6rem 1fr; gap: 0 0.85rem; align-items: start;
+  background: var(--superficie); border: 2px solid var(--bordo); border-radius: 14px;
+  padding: 1rem 1.1rem; transition: border-color .15s;
+}
+.gruppo .pallino { width: 1.6rem; height: 1.6rem; border-radius: 50%; border: 2px solid var(--bordo); margin-top: 0.15rem; display: grid; place-items: center; }
+.gruppo .nome { font-weight: 700; font-size: 1.3rem; line-height: 1.3; }
+.gruppo .dettaglio { grid-column: 2; color: var(--testo-2); font-size: 1rem; }
+.gruppo input:checked + .corpo { border-color: var(--accento); background: var(--accento-tenue); }
+.gruppo input:checked + .corpo .pallino { border-color: var(--accento); background: var(--accento); }
+.gruppo input:checked + .corpo .pallino::after { content: ""; width: 0.55rem; height: 0.55rem; border-radius: 50%; background: var(--accento-testo); }
+.gruppo input:focus-visible + .corpo { outline: 3px solid var(--fuoco); outline-offset: 3px; }
+
+.aiuto { margin-top: 0.9rem; }
+.aiuto summary { cursor: pointer; color: var(--accento); font-weight: 700; font-size: 1.05rem; }
+.aiuto .interno { padding-top: 0.75rem; }
+textarea, input[type="number"] {
+  font: inherit; color: var(--testo); background: var(--superficie);
+  border: 2px solid var(--bordo); border-radius: 10px; padding: 0.7rem 0.85rem; width: 100%;
+}
+textarea { min-height: 5.5rem; resize: vertical; }
+.nota { color: var(--testo-2); font-size: 0.95rem; margin: 0.5rem 0 0; }
+.suggerimento { margin-top: 0.85rem; padding: 0.85rem 1rem; border-left: 4px solid var(--accento); background: var(--superficie); border-radius: 0 10px 10px 0; }
+
+.campo-eta { display: flex; align-items: center; gap: 0.75rem; }
+.campo-eta input { width: 7.5rem; font-size: 1.6rem; font-weight: 700; text-align: center; }
+.errore { color: var(--avviso); font-weight: 700; margin: 0.6rem 0 0; }
+
+button { font: inherit; cursor: pointer; }
+.primario {
+  background: var(--accento); color: var(--accento-testo); border: 0; border-radius: 12px;
+  padding: 0.95rem 1.6rem; font-weight: 700; font-size: 1.2rem; min-height: 3.2rem;
+}
+.secondario {
+  background: transparent; color: var(--accento); border: 2px solid var(--accento);
+  border-radius: 10px; padding: 0.55rem 1rem; font-weight: 700; font-size: 1rem;
+}
+button:disabled { opacity: 0.55; cursor: default; }
+
+#risultati { margin-top: 3rem; scroll-margin-top: 1rem; }
+.riepilogo h2 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 0.5rem; }
+.riepilogo p { color: var(--testo-2); margin: 0 0 1rem; }
+.filtri { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1.5rem; }
+.filtri button { background: var(--superficie); color: var(--testo); border: 2px solid var(--bordo); border-radius: 999px; padding: 0.4rem 0.95rem; font-size: 1rem; }
+.filtri button[aria-pressed="true"] { border-color: var(--accento); background: var(--accento-tenue); font-weight: 700; }
+
+.spiegone { background: var(--superficie); border: 2px solid var(--bordo); border-radius: 14px; padding: 0.9rem 1.1rem; margin: 0 0 2rem; }
+.spiegone summary { cursor: pointer; font-weight: 700; }
+.spiegone ul { margin: 0.75rem 0 0.25rem; padding-left: 1.2rem; }
+.spiegone li { margin-bottom: 0.5rem; }
+
+.studi { list-style: none; margin: 0; padding: 0; }
+.studio { border-top: 2px solid var(--bordo); padding: 1.75rem 0 2rem; }
+.studio:last-child { border-bottom: 2px solid var(--bordo); }
+.studio h3 { font-size: 1.4rem; line-height: 1.3; margin: 0 0 0.6rem; }
+.tag { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 0.9rem; padding: 0; list-style: none; }
+.tag li { font-size: 0.92rem; padding: 0.15rem 0.6rem; border-radius: 6px; background: var(--superficie); border: 1px solid var(--bordo); color: var(--testo-2); }
+.tag li.forte { border-color: var(--avviso); color: var(--avviso); }
+.studio .sintesi { margin: 0 0 0.9rem; max-width: 40rem; }
+.studio .inglese { font-size: 0.95rem; color: var(--testo-2); font-style: italic; }
+.studio details.comporta { margin: 0 0 1.25rem; }
+.studio details.comporta summary { cursor: pointer; color: var(--accento); font-weight: 700; font-size: 1.05rem; }
+
+.centri { display: grid; gap: 0.85rem; margin: 0 0 1.25rem; }
+.centro { background: var(--superficie); border: 2px solid var(--bordo); border-radius: 14px; padding: 1rem 1.1rem; }
+.centro.partner { border-color: var(--partner); }
+.centro .fascia { display: inline-block; background: var(--partner-tenue); color: var(--partner); font-weight: 700; font-size: 0.92rem; border-radius: 6px; padding: 0.1rem 0.55rem; margin-bottom: 0.5rem; }
+.centro .luogo { font-weight: 700; margin: 0; }
+.centro .citta { color: var(--testo-2); margin: 0 0 0.6rem; font-size: 1rem; }
+.telefono {
+  display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none;
+  font-size: clamp(1.45rem, 4.6vw, 1.9rem); font-weight: 700; color: var(--accento);
+  line-height: 1.2; padding: 0.25rem 0;
+}
+.telefono svg { width: 1.5rem; height: 1.5rem; flex: none; }
+.chi { margin: 0.25rem 0 0; font-size: 1rem; }
+.chi a { word-break: break-all; }
+.senza-contatto { margin: 0; font-size: 1rem; color: var(--testo-2); }
+
+.codice { background: var(--fondo); border-radius: 10px; padding: 0.75rem 0.9rem; font-size: 1rem; margin: 0 0 1rem; }
+.codice strong { font-size: 1.1rem; letter-spacing: 0.02em; }
+.codice button { margin-left: 0.5rem; padding: 0.2rem 0.6rem; font-size: 0.9rem; }
+.azioni { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center; }
+.azioni a { font-size: 1rem; }
+
+.domanda { margin-top: 1rem; }
+.domanda .riga { display: flex; gap: 0.6rem; margin-top: 0.6rem; flex-wrap: wrap; }
+.risposta { margin-top: 0.85rem; padding: 0.85rem 1rem; background: var(--superficie); border-left: 4px solid var(--accento); border-radius: 0 10px 10px 0; white-space: pre-wrap; }
+.risposta.attesa { color: var(--testo-2); font-style: italic; }
+
+.vuoto { background: var(--superficie); border-radius: 14px; padding: 1.25rem; border: 2px dashed var(--bordo); }
+.vuoto h3 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+
+footer { margin-top: 4rem; color: var(--testo-2); font-size: 0.95rem; }
+footer p { margin: 0 0 0.75rem; }
+footer details summary { cursor: pointer; }
+.nascosto { display: none !important; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+@media (min-width: 640px) { .pagina { padding-top: 2.5rem; } }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <p class="marchio">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3.5c-3.6 0-6.5 2.6-6.5 6 0 1.6.6 3 1.7 4.1.5.5.8 1.2.8 1.9V18h8v-2.5c0-.7.3-1.4.8-1.9 1.1-1.1 1.7-2.5 1.7-4.1 0-3.4-2.9-6-6.5-6Z"/><path d="M9.5 21h5M12 8v5M9.5 10.5h5"/></svg>
+    NeuroStudi
+  </p>
+
+  <h1>Trova gli studi clinici di neurologia aperti vicino a te</h1>
+  <p class="intro">Studi in corso in Lombardia, Toscana e Lazio. Ti chiediamo solo la diagnosi e l’età, e non salviamo nulla. Se uno studio ti interessa, trovi il recapito diretto del gruppo di ricerca e chiami tu.</p>
+
+  <div id="avviso-demo" class="avviso-demo nascosto" role="note">
+    <strong>Versione dimostrativa</strong>
+    Gli studi e i contatti mostrati sono inventati per provare l’app. Non chiamare questi numeri.
+  </div>
+
+  <form id="ricerca" novalidate>
+    <fieldset>
+      <legend>Per chi stai cercando?</legend>
+      <div class="scelta-modo">
+        <label><input type="radio" name="modo" value="me" checked><span>Per me</span></label>
+        <label><input type="radio" name="modo" value="familiare"><span>Per un familiare</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend id="etichetta-diagnosi">Qual è la tua diagnosi?</legend>
+      <div class="gruppi" id="gruppi"></div>
+
+      <details class="aiuto" id="aiuto-diagnosi">
+        <summary>Non sai quale scegliere?</summary>
+        <div class="interno">
+          <label class="sr" for="testo-diagnosi">Descrivi la diagnosi</label>
+          <textarea id="testo-diagnosi" placeholder="Scrivi la diagnosi come compare nel referto, per esempio «ischemia cerebrale» o «decadimento cognitivo lieve»"></textarea>
+          <p class="nota">Il riconoscimento avviene sul tuo dispositivo: il testo non viene inviato né salvato.</p>
+          <div class="riga" style="margin-top:0.75rem"><button type="button" class="secondario" id="btn-suggerisci">Trova il gruppo</button></div>
+          <div id="esito-suggerimento" aria-live="polite"></div>
+        </div>
+      </details>
+    </fieldset>
+
+    <fieldset>
+      <legend id="etichetta-eta">Quanti anni hai?</legend>
+      <div class="campo-eta">
+        <label class="sr" for="eta">Età in anni</label>
+        <input id="eta" type="number" inputmode="numeric" min="0" max="120" step="1" autocomplete="off">
+        <span>anni</span>
+      </div>
+    </fieldset>
+
+    <button type="submit" class="primario">Mostra gli studi</button>
+    <p id="errore-form" class="errore" role="alert"></p>
+  </form>
+
+  <section id="risultati" class="nascosto" aria-live="polite"></section>
+
+  <footer>
+    <p id="info-dati"></p>
+    <p>NeuroStudi non è un servizio medico e non valuta se puoi partecipare: lo fa il gruppo di ricerca durante lo screening. Parla sempre con il tuo neurologo prima di decidere. In caso di urgenza chiama il 112.</p>
+    <details>
+      <summary>Per gli amministratori: carica dati aggiornati</summary>
+      <p>Seleziona il file <code>trials.json</code> prodotto dalla pipeline. I dati restano solo in questo browser.</p>
+      <input type="file" id="file-dati" accept="application/json,.json">
+      <p id="esito-file" role="status"></p>
+    </details>
+  </footer>
+</div>
+
+<!-- La pipeline sostituisce il contenuto di questo blocco con trials.json -->
+<script type="application/json" id="dati-studi">
+{"generato_il":"2026-10-17T09:00+00:00","dimostrativo":true,"fonti":["Dati dimostrativi"],"studi":[{"id":"DEMO-ICT-01","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Robot-assisted upper limb rehabilitation after stroke","titolo_it":"Riabilitazione del braccio con un robot dopo l’ictus","macrogruppi":["ictus"],"condizioni":["Stroke"],"tipo":"interventistico","fase":null,"stato":"In reclutamento","eta_min":18,"eta_max":80,"sponsor":"Ente dimostrativo","interventi":["Riabilitazione robotica"],"sintesi_it":"Lo studio confronta la riabilitazione del braccio fatta con l’aiuto di un robot con la fisioterapia tradizionale, in persone che hanno avuto un ictus da almeno sei mesi e hanno ancora difficoltà a muovere un braccio. I partecipanti vengono assegnati a caso a uno dei due gruppi.","cosa_comporta_it":"Tre sedute a settimana per 8 settimane presso il centro, più due visite di controllo a 3 e 6 mesi.","intervento_it":"Riabilitazione con dispositivo robotico","placebo":false,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo di neuroriabilitazione","citta":"Milano","regione":"Lombardia","partner":true,"contatto":{"nome":"Dott.ssa Laura Esempio","ruolo":"Coordinatrice dello studio","telefono":"000 000 0001","email":"ricerca.ictus@esempio.invalid","origine":"partner"},"responsabile":"Dott.ssa Laura Esempio"},{"nome":"Ospedale dimostrativo Roma Est","citta":"Roma","regione":"Lazio","partner":false,"contatto":{"nome":"Dott. Andrea Esempio","ruolo":"Referente dello studio","telefono":"000 000 0002","email":null,"origine":"registro"},"responsabile":null}],"testo_generato":"regole","descrizione_originale":"This randomized study compares robot-assisted upper limb rehabilitation with conventional physiotherapy in chronic stroke survivors with persistent arm weakness."},{"id":"DEMO-ICT-02","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Secondary prevention after minor stroke or TIA","titolo_it":"Un farmaco per prevenire un nuovo ictus dopo un ictus lieve o un TIA","macrogruppi":["ictus"],"condizioni":["Ischemic Stroke","TIA"],"tipo":"interventistico","fase":"Fase 3","stato":"In reclutamento","eta_min":40,"eta_max":null,"sponsor":"Ente dimostrativo","interventi":["Farmaco sperimentale"],"sintesi_it":"Lo studio verifica se un nuovo farmaco, aggiunto alla terapia abituale, riduce il rischio di un secondo ictus. Metà dei partecipanti riceve il farmaco e metà un placebo, cioè una compressa senza principio attivo. Né il paziente né il medico sanno a quale gruppo si appartiene.","cosa_comporta_it":"Una compressa al giorno per 12 mesi e visite ogni 3 mesi.","intervento_it":"Compressa da assumere ogni giorno","placebo":true,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo di neurologia vascolare","citta":"Firenze","regione":"Toscana","partner":true,"contatto":{"nome":"Dott. Marco Esempio","ruolo":"Infermiere di ricerca","telefono":"000 000 0003","email":"studi.ictus@esempio.invalid","origine":"partner"},"responsabile":"Dott. Marco Esempio"}],"testo_generato":"regole"},{"id":"DEMO-SM-01","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Oral therapy in progressive multiple sclerosis","titolo_it":"Un farmaco orale per la sclerosi multipla progressiva","macrogruppi":["sm"],"condizioni":["Progressive Multiple Sclerosis"],"tipo":"interventistico","fase":"Fase 2","stato":"In reclutamento","eta_min":18,"eta_max":60,"sponsor":"Ente dimostrativo","interventi":["Farmaco sperimentale"],"sintesi_it":"Lo studio valuta se un farmaco in compresse rallenta il peggioramento della disabilità nella sclerosi multipla progressiva. Il farmaco viene confrontato con un placebo. Possono essere ammesse solo persone con una forma progressiva confermata dal neurologo.","cosa_comporta_it":"Due anni di trattamento, risonanza magnetica ogni 6 mesi e visite neurologiche periodiche.","intervento_it":"Compressa da assumere ogni giorno","placebo":true,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo sclerosi multipla","citta":"Milano","regione":"Lombardia","partner":true,"contatto":{"nome":"Dott.ssa Giulia Esempio","ruolo":"Coordinatrice dello studio","telefono":"000 000 0004","email":"sm.ricerca@esempio.invalid","origine":"partner"},"responsabile":"Dott.ssa Giulia Esempio"},{"nome":"Policlinico dimostrativo","citta":"Roma","regione":"Lazio","partner":false,"contatto":null,"responsabile":"Dott. Fabio Esempio"}],"testo_generato":"regole"},{"id":"DEMO-SM-02","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Fatigue and physical activity in MS: an observational app-based study","titolo_it":"Stanchezza e attività fisica nella sclerosi multipla: uno studio con app","macrogruppi":["sm"],"condizioni":["Multiple Sclerosis"],"tipo":"osservazionale","fase":null,"stato":"In reclutamento","eta_min":18,"eta_max":70,"sponsor":"Ente dimostrativo","interventi":[],"sintesi_it":"Lo studio osserva per un anno come cambiano la stanchezza e l’attività fisica nelle persone con sclerosi multipla, usando un’app sullo smartphone e un braccialetto contapassi. Non prevede nessun nuovo farmaco o trattamento.","cosa_comporta_it":"Questionari mensili nell’app e due visite al centro, all’inizio e alla fine.","intervento_it":null,"placebo":null,"sintesi_tradotta":true,"siti":[{"nome":"Azienda ospedaliera dimostrativa","citta":"Pisa","regione":"Toscana","partner":false,"contatto":{"nome":"Dott.ssa Marta Esempio","ruolo":"Referente dello studio","telefono":"000 000 0005","email":"sm.app@esempio.invalid","origine":"registro"},"responsabile":null},{"nome":"Centro dimostrativo Firenze Nord","citta":"Firenze","regione":"Toscana","partner":false,"contatto":null,"responsabile":"Prof. Giorgio Esempio"}],"testo_generato":"regole"},{"id":"DEMO-PK-01","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Monoclonal antibody in early Parkinson's disease","titolo_it":"Un anticorpo per la malattia di Parkinson nelle fasi iniziali","macrogruppi":["parkinson"],"condizioni":["Parkinson Disease"],"tipo":"interventistico","fase":"Fase 2","stato":"In reclutamento","eta_min":40,"eta_max":80,"sponsor":"Ente dimostrativo","interventi":["Anticorpo monoclonale"],"sintesi_it":"Lo studio verifica se un anticorpo somministrato per infusione rallenta la progressione del Parkinson nelle persone diagnosticate da meno di tre anni. Il confronto avviene con un placebo.","cosa_comporta_it":"Un’infusione in ospedale ogni 4 settimane per 18 mesi, con esami del sangue e visite neurologiche.","intervento_it":"Infusione in vena","placebo":true,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo disturbi del movimento","citta":"Roma","regione":"Lazio","partner":true,"contatto":{"nome":"Dott. Paolo Esempio","ruolo":"Medico sperimentatore","telefono":"000 000 0006","email":"parkinson.studi@esempio.invalid","origine":"partner"},"responsabile":"Dott. Paolo Esempio"},{"nome":"Ospedale dimostrativo Milano Sud","citta":"Milano","regione":"Lombardia","partner":false,"contatto":{"nome":"Dott.ssa Elena Esempio","ruolo":"Referente dello studio","telefono":"000 000 0007","email":null,"origine":"registro"},"responsabile":null}],"testo_generato":"regole"},{"id":"DEMO-PK-02","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Adaptive deep brain stimulation in Parkinson's disease","titolo_it":"Stimolazione cerebrale profonda «adattiva» nel Parkinson","macrogruppi":["parkinson"],"condizioni":["Parkinson Disease"],"tipo":"interventistico","fase":null,"stato":"Reclutamento in apertura","eta_min":30,"eta_max":75,"sponsor":"Ente dimostrativo","interventi":["Dispositivo"],"sintesi_it":"Lo studio confronta due modi di regolare uno stimolatore cerebrale già impiantato o da impiantare: quello standard e uno che si adatta automaticamente all’attività del cervello. È rivolto a persone per cui il neurologo ha già indicato la stimolazione cerebrale profonda.","cosa_comporta_it":null,"intervento_it":"Regolazione di un dispositivo impiantato","placebo":false,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo di neurochirurgia funzionale","citta":"Milano","regione":"Lombardia","partner":false,"contatto":null,"responsabile":null}],"testo_generato":"regole"},{"id":"DEMO-SLA-01","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Antisense therapy in ALS","titolo_it":"Una terapia genetica «antisenso» per la SLA","macrogruppi":["sla"],"condizioni":["Amyotrophic Lateral Sclerosis"],"tipo":"interventistico","fase":"Fase 3","stato":"In reclutamento","eta_min":18,"eta_max":null,"sponsor":"Ente dimostrativo","interventi":["Oligonucleotide antisenso"],"sintesi_it":"Lo studio valuta un farmaco che agisce su un gene coinvolto in alcune forme di SLA. Possono partecipare solo persone con una specifica alterazione genetica, che il centro verifica con un esame. Il farmaco è confrontato con un placebo.","cosa_comporta_it":"Iniezioni nel canale spinale (puntura lombare) ogni 4 settimane per un anno, in ospedale.","intervento_it":"Iniezione tramite puntura lombare","placebo":true,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo malattie del motoneurone","citta":"Milano","regione":"Lombardia","partner":true,"contatto":{"nome":"Dott.ssa Anna Esempio","ruolo":"Coordinatrice dello studio","telefono":"000 000 0008","email":"sla.ricerca@esempio.invalid","origine":"partner"},"responsabile":"Dott.ssa Anna Esempio"},{"nome":"Policlinico dimostrativo","citta":"Roma","regione":"Lazio","partner":false,"contatto":null,"responsabile":null},{"nome":"Centro dimostrativo Firenze Sud","citta":"Firenze","regione":"Toscana","partner":false,"contatto":{"nome":"Dott. Luca Esempio","ruolo":"Referente dello studio","telefono":"000 000 0009","email":null,"origine":"registro"},"responsabile":null}],"testo_generato":"regole"},{"id":"DEMO-SLA-02","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Blood biomarkers of disease progression in ALS","titolo_it":"Esami del sangue per seguire l’andamento della SLA","macrogruppi":["sla"],"condizioni":["ALS"],"tipo":"osservazionale","fase":null,"stato":"In reclutamento","eta_min":18,"eta_max":null,"sponsor":"Ente dimostrativo","interventi":[],"sintesi_it":"Lo studio raccoglie campioni di sangue nel tempo per capire quali sostanze indicano come evolve la SLA. Non prevede trattamenti sperimentali.","cosa_comporta_it":"Un prelievo ogni 6 mesi, che si può fare in occasione delle visite abituali.","intervento_it":null,"placebo":null,"sintesi_tradotta":true,"siti":[{"nome":"Azienda ospedaliera dimostrativa","citta":"Pisa","regione":"Toscana","partner":false,"contatto":null,"responsabile":null}],"testo_generato":"regole"},{"id":"DEMO-INV-01","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Subcutaneous anti-amyloid antibody in early Alzheimer's disease","titolo_it":"Un anticorpo sottocute per l’Alzheimer nelle fasi iniziali","macrogruppi":["invecchiamento"],"condizioni":["Alzheimer Disease"],"tipo":"interventistico","fase":"Fase 3","stato":"In reclutamento","eta_min":55,"eta_max":85,"sponsor":"Ente dimostrativo","interventi":["Anticorpo monoclonale"],"sintesi_it":"Lo studio valuta se un anticorpo iniettato sotto la pelle rallenta il declino della memoria nelle persone con Alzheimer lieve o declino cognitivo lieve dovuto ad Alzheimer. Serve un familiare o un caregiver che accompagni alle visite. Il confronto avviene con un placebo.","cosa_comporta_it":"Un’iniezione ogni 2 settimane, risonanze magnetiche di controllo e test di memoria periodici per 18 mesi.","intervento_it":"Iniezione sottocutanea","placebo":true,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo per i disturbi cognitivi","citta":"Roma","regione":"Lazio","partner":true,"contatto":{"nome":"Dott.ssa Chiara Esempio","ruolo":"Psicologa di ricerca","telefono":"000 000 0010","email":"memoria.studi@esempio.invalid","origine":"partner"},"responsabile":"Dott.ssa Chiara Esempio"},{"nome":"Centro dimostrativo Firenze Nord","citta":"Firenze","regione":"Toscana","partner":false,"contatto":null,"responsabile":null}],"testo_generato":"regole"},{"id":"DEMO-INV-02","id_secondari":[],"fonti":["Dimostrativo"],"url":"https://clinicaltrials.gov/","titolo_originale":"Digital cognitive training plus exercise in mild cognitive impairment","titolo_it":"Allenamento della mente con il tablet e attività fisica nel declino cognitivo lieve","macrogruppi":["invecchiamento"],"condizioni":["Mild Cognitive Impairment"],"tipo":"interventistico","fase":null,"stato":"In reclutamento","eta_min":60,"eta_max":90,"sponsor":"Ente dimostrativo","interventi":["Training cognitivo","Esercizio fisico"],"sintesi_it":"Lo studio confronta un programma di esercizi per la memoria su tablet, abbinato a ginnastica dolce, con i soli consigli sullo stile di vita. Non prevede farmaci.","cosa_comporta_it":"Esercizi a casa tre volte a settimana per 6 mesi e due incontri di gruppo al mese presso il centro.","intervento_it":"Esercizi su tablet e attività fisica","placebo":false,"sintesi_tradotta":true,"siti":[{"nome":"Centro dimostrativo di geriatria","citta":"Brescia","regione":"Lombardia","partner":false,"contatto":{"nome":"Dott.ssa Sara Esempio","ruolo":"Referente dello studio","telefono":"000 000 0011","email":"mci.studio@esempio.invalid","origine":"registro"},"responsabile":null},{"nome":"Ospedale dimostrativo Latina","citta":"Latina","regione":"Lazio","partner":false,"contatto":null,"responsabile":null}],"testo_generato":"regole"}]}
+</script>
+
+<script>
+(() => {
+  "use strict";
+
+  const GRUPPI = [
+    { id: "ictus", nome: "Ictus", dettaglio: "Ischemico o emorragico, TIA, emorragia subaracnoidea" },
+    { id: "sm", nome: "Sclerosi multipla", dettaglio: "Tutte le forme: recidivante-remittente e progressive" },
+    { id: "parkinson", nome: "Parkinson e parkinsonismi", dettaglio: "Malattia di Parkinson, atrofia multisistemica, paralisi sopranucleare progressiva" },
+    { id: "sla", nome: "SLA", dettaglio: "Sclerosi laterale amiotrofica e altre malattie del motoneurone" },
+    { id: "invecchiamento", nome: "Invecchiamento cerebrale e demenze", dettaglio: "Alzheimer, altre demenze, declino cognitivo lieve" }
+  ];
+  const REGIONI = ["Lombardia", "Toscana", "Lazio"];
+
+  const TESTI = {
+    me: {
+      diagnosi: "Qual è la tua diagnosi?",
+      eta: "Quanti anni hai?",
+      chiamata: "Quando chiami, di’ che hai trovato lo studio su NeuroStudi e indica questo codice:",
+      nessuno: "Al momento non ci sono studi aperti per la tua diagnosi e la tua età in queste regioni."
+    },
+    familiare: {
+      diagnosi: "Qual è la diagnosi della persona che assisti?",
+      eta: "Quanti anni ha?",
+      chiamata: "Quando chiami, spiega che cerchi informazioni per un tuo familiare e indica questo codice:",
+      nessuno: "Al momento non ci sono studi aperti per questa diagnosi e questa età in queste regioni."
+    }
+  };
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const el = (tag, attrs = {}, ...figli) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") n.className = v;
+      else if (k === "text") n.textContent = v;
+      else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v === true ? "" : v);
+    }
+    for (const f of figli.flat()) if (f != null && f !== false) n.append(f.nodeType ? f : document.createTextNode(f));
+    return n;
+  };
+  const ICONA_TEL = () => {
+    const ns = "http://www.w3.org/2000/svg";
+    const s = document.createElementNS(ns, "svg");
+    s.setAttribute("viewBox", "0 0 24 24"); s.setAttribute("fill", "none");
+    s.setAttribute("stroke", "currentColor"); s.setAttribute("stroke-width", "2"); s.setAttribute("aria-hidden", "true");
+    const p = document.createElementNS(ns, "path");
+    p.setAttribute("d", "M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2");
+    s.append(p); return s;
+  };
+
+  // ---------- Dati ----------
+  let DATI = leggiDatiIniziali();
+  function leggiDatiIniziali() {
+    try {
+      const salvati = localStorage.getItem("neurostudi-dati");
+      if (salvati) { const d = JSON.parse(salvati); if (valida(d)) return d; }
+    } catch (_) { /* archiviazione non disponibile */ }
+    return JSON.parse($("#dati-studi").textContent);
+  }
+  function valida(d) { return d && Array.isArray(d.studi) && d.studi.every(s => s.id && Array.isArray(s.siti)); }
+
+  function aggiornaInfoDati() {
+    $("#avviso-demo").classList.toggle("nascosto", !DATI.dimostrativo);
+    const data = DATI.generato_il ? new Date(DATI.generato_il) : null;
+    const quando = data && !isNaN(data) ? data.toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" }) : "data non indicata";
+    $("#info-dati").textContent = `Dati aggiornati al ${quando}. Fonti: ${(DATI.fonti || []).join(", ")}. ${DATI.studi.length} studi in archivio.`;
+  }
+
+  // ---------- Modulo ----------
+  const contGruppi = $("#gruppi");
+  for (const g of GRUPPI) {
+    contGruppi.append(el("label", { class: "gruppo" },
+      el("input", { type: "radio", name: "gruppo", value: g.id }),
+      el("span", { class: "corpo" },
+        el("span", { class: "pallino", "aria-hidden": "true" }),
+        el("span", { class: "nome", text: g.nome }),
+        el("span", { class: "dettaglio", text: g.dettaglio }))));
+  }
+
+  const modo = () => document.querySelector('input[name="modo"]:checked').value;
+  function aggiornaTestiModo() {
+    const t = TESTI[modo()];
+    $("#etichetta-diagnosi").textContent = t.diagnosi;
+    $("#etichetta-eta").textContent = t.eta;
+    if (!$("#risultati").classList.contains("nascosto")) mostraRisultati(false);
+  }
+  document.querySelectorAll('input[name="modo"]').forEach(r => r.addEventListener("change", aggiornaTestiModo));
+
+  let filtroRegione = "Tutte";
+  $("#ricerca").addEventListener("submit", e => {
+    e.preventDefault();
+    const errore = $("#errore-form");
+    const gruppo = document.querySelector('input[name="gruppo"]:checked');
+    const eta = Number($("#eta").value);
+    if (!gruppo) { errore.textContent = "Scegli la diagnosi per continuare."; return; }
+    if (!$("#eta").value || !Number.isFinite(eta) || eta < 0 || eta > 120) { errore.textContent = "Inserisci l’età in anni, per esempio 58."; $("#eta").focus(); return; }
+    errore.textContent = "";
+    filtroRegione = "Tutte";
+    mostraRisultati(true);
+  });
+
+  // ---------- Risultati ----------
+  function compatibileEta(s, eta) {
+    return (s.eta_min == null || eta >= s.eta_min) && (s.eta_max == null || eta <= s.eta_max);
+  }
+  function testoEta(s) {
+    if (s.eta_min == null && s.eta_max == null) return "Età da verificare con il centro";
+    if (s.eta_max == null) return `Dai ${s.eta_min} anni in su`;
+    if (s.eta_min == null) return `Fino a ${s.eta_max} anni`;
+    return `Dai ${s.eta_min} ai ${s.eta_max} anni`;
+  }
+
+  function mostraRisultati(scorri) {
+    const gruppoId = document.querySelector('input[name="gruppo"]:checked')?.value;
+    const eta = Number($("#eta").value);
+    if (!gruppoId) return;
+    const gruppo = GRUPPI.find(g => g.id === gruppoId);
+    const t = TESTI[modo()];
+
+    const perDiagnosi = DATI.studi.filter(s => (s.macrogruppi || []).includes(gruppoId));
+    const perEta = perDiagnosi.filter(s => compatibileEta(s, eta));
+    const esclusiEta = perDiagnosi.length - perEta.length;
+    const visibili = perEta
+      .map(s => ({ ...s, sitiVisibili: s.siti.filter(x => filtroRegione === "Tutte" || x.regione === filtroRegione) }))
+      .filter(s => s.sitiVisibili.length);
+
+    const sez = $("#risultati");
+    sez.replaceChildren();
+    sez.classList.remove("nascosto");
+
+    const conteggio = perEta.length === 0 ? "Nessuno studio aperto" : perEta.length === 1 ? "1 studio aperto" : `${perEta.length} studi aperti`;
+    sez.append(el("div", { class: "riepilogo" },
+      el("h2", { tabindex: "-1", id: "titolo-risultati", text: `${conteggio} per ${gruppo.nome.toLowerCase()}, ${eta} anni` }),
+      esclusiEta > 0 ? el("p", { text: `${esclusiEta === 1 ? "Un altro studio" : esclusiEta + " altri studi"} su questa diagnosi non ${esclusiEta === 1 ? "accetta" : "accettano"} persone di ${eta} anni.` }) : null));
+
+    if (perEta.length) {
+      const filtri = el("div", { class: "filtri", role: "group", "aria-label": "Filtra per regione" });
+      for (const r of ["Tutte", ...REGIONI]) {
+        filtri.append(el("button", { type: "button", "aria-pressed": String(r === filtroRegione), text: r === "Tutte" ? "Tutte le regioni" : r,
+          onclick: () => { filtroRegione = r; mostraRisultati(false); } }));
+      }
+      sez.append(filtri);
+      sez.append(spiegazioneStudi());
+    }
+
+    if (!visibili.length) {
+      sez.append(el("div", { class: "vuoto" },
+        el("h3", { text: perEta.length ? `Nessuno studio aperto in ${filtroRegione}` : t.nessuno }),
+        el("p", { text: perEta.length
+          ? "Prova a vedere tutte le regioni: alcuni centri seguono pazienti che arrivano da fuori regione."
+          : "Nuovi studi aprono durante l’anno: torna a controllare tra qualche settimana. Puoi anche chiedere al tuo neurologo o alle associazioni di pazienti della tua patologia. Se non ci sono studi, in alcuni casi il medico può valutare l’accesso a un farmaco sperimentale per uso compassionevole." })));
+    } else {
+      const lista = el("ul", { class: "studi" });
+      for (const s of visibili) lista.append(schedaStudio(s, t));
+      sez.append(lista);
+    }
+
+    if (scorri) {
+      sez.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+      $("#titolo-risultati").focus({ preventScroll: true });
+    }
+  }
+
+  function spiegazioneStudi() {
+    return el("details", { class: "spiegone" },
+      el("summary", { text: "Prima di chiamare: cosa vuol dire partecipare a uno studio" }),
+      el("ul", {},
+        el("li", { text: "Uno studio clinico serve a capire se un trattamento funziona ed è sicuro. Non è una cura garantita." }),
+        el("li", { text: "In molti studi i partecipanti sono assegnati a caso a gruppi diversi: alcuni ricevono il trattamento sperimentale, altri la terapia standard o un placebo." }),
+        el("li", { text: "Il gruppo di ricerca verifica se puoi partecipare con uno screening: domande, esami e visite. Molte persone interessate non risultano idonee, ed è normale." }),
+        el("li", { text: "Partecipare è gratuito e volontario. Puoi ritirarti in qualsiasi momento senza conseguenze sulle tue cure." }),
+        el("li", { text: "Parlane con il tuo neurologo: conosce la tua storia e può aiutarti a valutare." })),
+      el("p", { style: "margin:1rem 0 .25rem;font-weight:700", text: "Domande utili da fare al telefono" }),
+      el("ul", {},
+        el("li", { text: "Quante visite sono previste, ogni quanto e per quanto tempo?" }),
+        el("li", { text: "Posso continuare le terapie che prendo ora?" }),
+        el("li", { text: "Sono previsti rimborsi per le spese di viaggio?" }),
+        el("li", { text: "Cosa succede alla fine dello studio?" }),
+        el("li", { text: "Quali documenti o referti devo preparare per lo screening?" })));
+  }
+
+  function schedaStudio(s, t) {
+    const tag = el("ul", { class: "tag", "aria-label": "Caratteristiche dello studio" },
+      el("li", { text: s.stato || "In reclutamento" }),
+      s.fase ? el("li", { text: s.fase }) : null,
+      s.tipo === "osservazionale"
+        ? el("li", { class: "forte", text: "Osservazionale: nessun trattamento sperimentale" })
+        : el("li", { text: "Sperimentazione di un trattamento" }),
+      s.placebo === true ? el("li", { text: "Può prevedere placebo" }) : null,
+      s.placebo === false ? el("li", { text: "Senza placebo" }) : null,
+      el("li", { text: testoEta(s) }));
+
+    const sintesi = s.sintesi_it
+      ? el("p", { class: "sintesi" }, s.sintesi_it, s.sintesi_tradotta === false ? el("span", { class: "inglese", text: " (descrizione originale in inglese)" }) : null)
+      : el("p", { class: "sintesi", text: "Il registro non riporta una descrizione. Chiedi i dettagli al centro." });
+
+    const originale = s.descrizione_originale
+      ? el("details", { class: "comporta" }, el("summary", { text: "Descrizione originale del registro (in inglese)" }), el("p", { lang: "en", text: s.descrizione_originale }))
+      : null;
+    const comporta = s.cosa_comporta_it
+      ? el("details", { class: "comporta" }, el("summary", { text: "Cosa comporta partecipare" }), el("p", { text: s.cosa_comporta_it }))
+      : null;
+
+    const centri = el("div", { class: "centri" });
+    for (const sito of s.sitiVisibili) centri.append(schedaCentro(sito, s));
+
+    const codice = el("div", { class: "codice" },
+      el("span", { text: t.chiamata + " " }),
+      el("strong", { text: s.id }),
+      navigator.clipboard ? el("button", { type: "button", class: "secondario", text: "Copia codice",
+        onclick: async ev => {
+          const b = ev.currentTarget;
+          try { await navigator.clipboard.writeText(s.id); b.textContent = "Codice copiato"; }
+          catch (_) { b.textContent = "Copia non riuscita"; }
+          setTimeout(() => { b.textContent = "Copia codice"; }, 2000);
+        } }) : null);
+
+    const azioni = el("div", { class: "azioni" },
+      s.url ? el("a", { href: s.url, target: "_blank", rel: "noopener", text: "Scheda completa sul registro (in inglese)" }) : null);
+
+    const li = el("li", { class: "studio" },
+      el("h3", { text: s.titolo_it || s.titolo_originale }),
+      s.titolo_originale && s.titolo_originale !== s.titolo_it ? el("p", { class: "nota", style: "margin:-.35rem 0 .75rem" }, "Titolo originale: ", el("span", { lang: "en", text: s.titolo_originale })) : null,
+      tag, sintesi, comporta, originale, centri, codice, azioni);
+    return li;
+  }
+
+  function schedaCentro(sito, s) {
+    const c = sito.contatto;
+    const box = el("div", { class: "centro" + (sito.partner ? " partner" : "") },
+      sito.partner ? el("span", { class: "fascia", text: "Contatto confermato dal centro" }) : null,
+      el("p", { class: "luogo", text: sito.nome }),
+      el("p", { class: "citta", text: `${sito.citta || ""}${sito.citta ? ", " : ""}${sito.regione}` }));
+
+    if (c && (c.telefono || c.email)) {
+      if (c.telefono) {
+        const numero = String(c.telefono).split(/\s+int\./i)[0].replace(/[^\d+]/g, "");
+        box.append(el("a", { class: "telefono", href: "tel:" + numero, "aria-label": `Chiama ${c.telefono}` }, ICONA_TEL(), c.telefono));
+      }
+      const chi = [c.nome, c.ruolo].filter(Boolean).join(", ");
+      box.append(el("p", { class: "chi" },
+        chi ? chi : null,
+        chi && c.email ? el("br") : null,
+        c.email ? el("a", { href: "mailto:" + c.email, text: c.email }) : null));
+      if (!sito.partner) box.append(el("p", { class: "nota", text: "Recapito del gruppo di ricerca pubblicato sul registro." }));
+    } else {
+      box.append(el("p", { class: "senza-contatto" },
+        sito.responsabile ? el("span", {}, "Responsabile dello studio in questo centro: ", el("strong", { text: sito.responsabile }), ". ") : null,
+        "Il registro non pubblica un recapito diretto del gruppo di ricerca. Il tuo neurologo può contattare il centro per te."));
+    }
+    return box;
+  }
+
+  // ---------- Riconoscimento della diagnosi (senza LLM, sul dispositivo) ----------
+  const SINONIMI = {
+    ictus: ["ictus", "stroke", "ischemia cerebrale", "ischemico", "ischemica", "infarto cerebrale", "emorragia cerebrale",
+            "emorragia intracranica", "emorragia intraparenchimale", "emorragia subaracnoidea", "ematoma cerebrale",
+            "tia", "attacco ischemico transitorio", "trombosi cerebrale", "occlusione carotidea", "aneurisma cerebrale",
+            "lesione ischemica", "vasculopatia cerebrale", "afasia post ictus", "emiparesi"],
+    sm: ["sclerosi multipla", "sm", "rrms", "spms", "ppms", "malattia demielinizzante", "demielinizzante",
+         "cis", "sindrome clinicamente isolata", "neurite ottica", "forma recidivante remittente", "forma progressiva"],
+    parkinson: ["parkinson", "parkinsonismo", "parkinsonismi", "morbo di parkinson", "atrofia multisistemica", "msa",
+                "paralisi sopranucleare", "psp", "degenerazione corticobasale", "sindrome parkinsoniana"],
+    sla: ["sla", "als", "sclerosi laterale amiotrofica", "malattia del motoneurone", "malattie del motoneurone",
+          "mnd", "sclerosi laterale primaria", "atrofia muscolare progressiva"],
+    invecchiamento: ["alzheimer", "demenza", "demenze", "decadimento cognitivo", "declino cognitivo", "deterioramento cognitivo",
+                     "disturbo cognitivo", "mci", "mild cognitive impairment", "demenza frontotemporale", "ftd",
+                     "corpi di lewy", "demenza vascolare", "perdita di memoria", "disturbi di memoria", "afasia primaria progressiva"]
+  };
+  const normalizza = t => " " + t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim() + " ";
+
+  $("#btn-suggerisci").addEventListener("click", () => {
+    const testo = normalizza($("#testo-diagnosi").value || "");
+    const esito = $("#esito-suggerimento");
+    if (!testo.trim()) { esito.replaceChildren(el("p", { class: "errore", text: "Scrivi prima la diagnosi." })); return; }
+    const punteggi = GRUPPI.map(g => ({ g, n: SINONIMI[g.id].filter(sin => testo.includes(" " + normalizza(sin).trim() + " ")).length }))
+      .filter(x => x.n > 0).sort((a, b) => b.n - a.n);
+    if (!punteggi.length) {
+      esito.replaceChildren(el("div", { class: "suggerimento" },
+        el("p", { style: "margin:0", text: "Non abbiamo riconosciuto la diagnosi tra i cinque gruppi coperti da NeuroStudi. Prova con le parole del referto oppure chiedi al tuo neurologo quale gruppo la descrive meglio." })));
+      return;
+    }
+    const box = el("div", { class: "suggerimento" },
+      el("p", { style: "margin:0 0 .6rem", text: punteggi.length > 1 ? "La descrizione può rientrare in più gruppi:" : "La descrizione sembra rientrare in questo gruppo:" }));
+    const riga = el("div", { class: "riga" });
+    for (const { g } of punteggi) {
+      riga.append(el("button", { type: "button", class: "secondario", text: `Scegli ${g.nome}`,
+        onclick: () => { const i = document.querySelector(`input[name="gruppo"][value="${g.id}"]`); i.checked = true; i.focus(); } }));
+    }
+    box.append(riga, el("p", { class: "nota", text: "È solo un aiuto alla scelta, non una diagnosi." }));
+    esito.replaceChildren(box);
+  });
+
+  // ---------- Caricamento dati (amministratori) ----------
+  $("#file-dati").addEventListener("change", async ev => {
+    const f = ev.target.files && ev.target.files[0];
+    const esito = $("#esito-file");
+    if (!f) return;
+    try {
+      const d = JSON.parse(await f.text());
+      if (!valida(d)) throw new Error("formato");
+      DATI = d;
+      try { localStorage.setItem("neurostudi-dati", JSON.stringify(d)); } catch (_) { /* solo in memoria */ }
+      aggiornaInfoDati();
+      esito.textContent = `Caricati ${d.studi.length} studi.`;
+      if (!$("#risultati").classList.contains("nascosto")) mostraRisultati(false);
+    } catch (_) {
+      esito.textContent = "File non valido: usa il trials.json prodotto dalla pipeline.";
+    }
+  });
+
+  aggiornaInfoDati();
+})();
+</script>
+</body>
+</html>
