@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-10-19T08:45+00:00",
+ "generato_il": "2026-10-20T08:26+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -689,69 +689,6 @@
    "titolo_it": "Studio osservazionale su persone con malattia di Parkinson",
    "sintesi_it": "Studio osservazionale su persone con malattia di Parkinson: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 280 partecipanti.",
    "intervento_it": null,
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT05773885",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT05773885",
-   "titolo_originale": "Telerehabilitation in People With Parkinson's Disease",
-   "macrogruppi": [
-    "parkinson"
-   ],
-   "condizioni": [
-    "Parkinson's Disease"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 30.0,
-   "eta_max": 80.0,
-   "sponsor": "IRCCS San Raffaele Roma",
-   "interventi": [
-    "VRRS Tablet (Khymeia s.r.l., Noventa Padovana, Italy)",
-    "Conventional rehabilitation"
-   ],
-   "aggiornato_registro": "2025-03-30",
-   "descrizione_originale": "Although TeleRehabilitation (TR) is widely accepted as an appropriate model for the provision of professional health services in the field of physiotherapy, with already established standards, guidelines and policies, there are still few studies in the literature on the use of TR as a rehabilitation tool in people with Parkinson's Disease (PD). Therefore, further studies on the efficacy of TR in the management of motor and non-motor symptoms of PD are needed.\n\nThe study TEMPO aims at assessing the efficacy (in terms of autonomy in carrying out the activities of daily life) of a home TR program based on serious games in people with PD compared to conventional day-hospital treatment.",
-   "siti": [
-    {
-     "nome": "San Raffaele Cassino",
-     "citta": "Cassino",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": {
-      "nome": "Maria Francesca De Pandis, MD.",
-      "ruolo": "Referente dello studio",
-      "telefono": null,
-      "email": "maria.depandis@sanraffaele.it",
-      "origine": "registro"
-     },
-     "responsabile": null
-    },
-    {
-     "nome": "IRCCS San Raffaele Roma",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": {
-      "nome": "Dr. Lucia Gatta, PhD",
-      "ruolo": "Referente dello studio",
-      "telefono": null,
-      "email": "lucia.gatta@sanraffaele.it",
-      "origine": "registro"
-     },
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Dispositivo medico per malattia di Parkinson: VRRS Tablet (Khymeia s.r.l., Noventa Padovana, Italy)",
-   "sintesi_it": "Studio che valuta un dispositivo medico (VRRS Tablet (Khymeia s.r.l., Noventa Padovana, Italy)) in persone con malattia di Parkinson. I partecipanti sono assegnati a caso a gruppi diversi. I partecipanti non sanno a quale gruppo appartengono. In totale lo studio prevede circa 40 partecipanti.",
-   "intervento_it": "Dispositivo medico (VRRS Tablet (Khymeia s.r.l., Noventa Padovana, Italy))",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
@@ -4170,7 +4107,7 @@
     "Experimental",
     "Control"
    ],
-   "aggiornato_registro": "2025-04-04",
+   "aggiornato_registro": "2026-10-19",
    "descrizione_originale": "The goal of this clinical trial is to study the clinical effects of a robotic rehabilitation treatment through a bilateral exoskeleton (Bilateral Robot-Assisted Therapy-BRAT) during standard rehabilitation, on motor recovery, compared to conventional arm re-education in people suffering from stroke in the subacute phase. The main question it aims to answer is what the effectiveness of Bilateral Robot-Assisted Therapy (BRAT) is in rehabilitating the upper limb in individuals with subacute stroke compared to conventional rehabilitation treatment in terms of motor function improvement as measured by the Fugl-Meyer Assessment - Upper Limb (FMA-UL), motor domain. Researchers will compare two groups (Experimental Group - EG and Control Group - CG) to see if the BRAT is more effective than conventional rehabilitation treatment in terms of motor recovery. Participants will be randomly assigned to one of the two treatment groups (EG or CG) and will be clinically and instrumentally evaluated at baseline (T0) and at the end of treatment (T1). EG, in addition to the standard rehabilitation treatment, will perform a 45-minute session of BRAT per day through the Arm Light Exoskeleton Hybrid (Alex RS - Wearable Robotics) robotic system. The CG, in addition to the standard routine rehabilitation treatment, will follow a conventional rehabilitation of the upper limbs without the use of technological devices. Finally, a telephone follow-up is scheduled three months after the end of the treatme",
    "siti": [
     {
@@ -4206,63 +4143,6 @@
    "titolo_it": "Dispositivo medico per ictus: Experimental",
    "sintesi_it": "Studio che valuta un dispositivo medico (Experimental) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. I partecipanti non sanno a quale gruppo appartengono. In totale lo studio prevede circa 70 partecipanti.",
    "intervento_it": "Dispositivo medico (Experimental)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT06906679",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT06906679",
-   "titolo_originale": "Upper Limb Rehabilitation in People With Parkinson's Disease:",
-   "macrogruppi": [
-    "parkinson"
-   ],
-   "condizioni": [
-    "Parkinson Disease"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 30.0,
-   "eta_max": 80.0,
-   "sponsor": "IRCCS San Raffaele Roma",
-   "interventi": [
-    "Experimental Group",
-    "control group"
-   ],
-   "aggiornato_registro": "2025-04-04",
-   "descrizione_originale": "This study evaluates the effectiveness of upper limb rehabilitation using an end-effector robotic device with exercises designed to improve movements, strength, and coordination of the shoulder, elbow, and wrist in patients with Parkinson's disease who have mild to moderate disability, compared to conventional rehabilitation treatment. The study protocol will involve individuals diagnosed with PD according to the UK Parkinson's Disease Society Brain Bank criteria, who will be randomly assigned to one of the following groups:\n\nA - Experimental Group (EG) - robotic treatment for upper limb rehabilitation. B - Control Group (CG) - conventional treatment for upper limb rehabilitation.\n\nSecondary objectives include:\n\n\\- Evaluating the effectiveness of an end-effector robotic system in terms of improving upper limb coordination and functionality through the ARAT test and the UPDRS.\n\nIdentifying subgroups of participants who may benefit more from robotic therapy based on PD disease stage (Hoehn \\& Yahr), age, and upper limb impairment.\n\nAnalyzing the effects of robotic rehabilitation on quality of life.\n\nAssessing participants' compliance and satisfaction levels with the robotic system in terms of improving participation in upper limb rehabilitation.",
-   "siti": [
-    {
-     "nome": "San Raffaele Cassino",
-     "citta": "Cassino",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": {
-      "nome": "Prof. Maria Francesca Francesca De Pandis, MD, PhD",
-      "ruolo": "Referente dello studio",
-      "telefono": "+39077639740",
-      "email": "maria.depandis@sanraffaele.it",
-      "origine": "registro"
-     },
-     "responsabile": "Prof. Maria Francesca De Pandis, MD, PhD"
-    },
-    {
-     "nome": "IRCCS San Raffaele Roma",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Dispositivo medico per malattia di Parkinson: Experimental Group",
-   "sintesi_it": "Studio che valuta un dispositivo medico (Experimental Group) in persone con malattia di Parkinson. I partecipanti sono assegnati a caso a gruppi diversi. In totale lo studio prevede circa 40 partecipanti.",
-   "intervento_it": "Dispositivo medico (Experimental Group)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
@@ -9251,7 +9131,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "02/07/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -10561,7 +10441,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "14/05/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -11457,7 +11337,7 @@
    "interventi": [
     "human fetal neural precursor cells, TACROLIMUS\r"
    ],
-   "aggiornato_registro": "02/04/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -11947,7 +11827,7 @@
    "interventi": [
     "Ocrevus, Ocrevus 300 mg concentrate for solution for infusion, ABP 692"
    ],
-   "aggiornato_registro": "09/10/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -12187,9 +12067,9 @@
    "eta_max": null,
    "sponsor": "Sanofi-Aventis Recherche & Developpement",
    "interventi": [
-    "Matched placebo for comparator teriflunomide, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets, Matched placebo for test product frexalimab, AUBAGIO 14 mg film-coated tablets, Frexalimab, COLESTYRAMINE\r, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets"
+    "AUBAGIO 14 mg film-coated tablets, COLESTYRAMINE\r, AUBAGIO 14 mg film-coated tablets, Matched placebo for test product frexalimab, Frexalimab, Matched placebo for comparator teriflunomide, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets"
    ],
-   "aggiornato_registro": "02/07/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -12849,9 +12729,9 @@
    "eta_max": null,
    "sponsor": "H. Lundbeck A/S",
    "interventi": [
-    "Amlenetug 53 mg/ml solution for infusion, commercially available saline solution for infusion"
+    "commercially available saline solution for infusion, Amlenetug 53 mg/ml solution for infusion"
    ],
-   "aggiornato_registro": "24/07/2026",
+   "aggiornato_registro": "19/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -19272,7 +19152,7 @@
    "interventi": [
     "None, this is a non-interventional observational study"
    ],
-   "aggiornato_registro": "2026-10-06",
+   "aggiornato_registro": "2026-10-19",
    "descrizione_originale": "The goal of this international observational study is to evaluate long-term disease outcomes and treatment safety in people with Alzheimer's disease (PwAD), by collecting real-world data from routine clinical practice across global clinical centers.\n\nThe InRAD Registry Observational Study has several aims:\n\n* To collect medical information for many years from a large group of people with Alzheimer's disease. This will be used for research, which will support improved understanding about the disease.\n* To enable researchers to look at the effectiveness, usefulness and safety of treatments for Alzheimer's disease.\n* To enable researchers to answer similar research questions and compare results in many different areas of the world.\n\nPeople with Alzheimer's disease who meet the eligibility criteria and agree to participate in the Study will be asked to visit their doctor (e.g. psychiatrist, geriatrician, or neurologist) at least once a year, or as frequently as is needed for their care. During or after their appointments they may be offered assessments, tests, medications, and treatments as determined by their doctor and their team. This is an observational data collection.",
    "siti": [
     {
