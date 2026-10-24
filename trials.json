@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-10-23T08:28+00:00",
+ "generato_il": "2026-10-24T08:03+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -9177,7 +9177,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "20/10/2026",
+   "aggiornato_registro": "23/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -10553,7 +10553,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "19/10/2026",
+   "aggiornato_registro": "23/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13283,7 +13283,7 @@
    "interventi": [
     "Frexalimab"
    ],
-   "aggiornato_registro": "10/09/2026",
+   "aggiornato_registro": "23/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -18621,7 +18621,7 @@
    ],
    "tipo": "interventistico",
    "fase": "Fase 2",
-   "stato": "Reclutamento in apertura",
+   "stato": "In reclutamento",
    "eta_min": 35.0,
    "eta_max": 80.0,
    "sponsor": "University Hospital Tuebingen",
@@ -18629,7 +18629,7 @@
     "Prasinezumab",
     "Sodium Chloride"
    ],
-   "aggiornato_registro": "2025-07-08",
+   "aggiornato_registro": "2026-10-23",
    "descrizione_originale": "This is a proof-of-concept trial to investigate the efficacy of prasinezumab to slow or prevent cognitive decline in people with Parkinson's disease carrying a severe mutation in the GBA (glucocerebrosidase) gene. The duration of the intervention per patient will be 104 weeks with monthly infusions. The investigators plan to enroll 120 participants (60 participants per treatment arm). This study will be conducted across Europe in the following countries: France, Germany, Italy, Luxembourg, Spain, Sweden, UK.",
    "siti": [
     {
@@ -18643,6 +18643,14 @@
     {
      "nome": "Fondazione IRCCS Ca' Granda Policlinico Hospital",
      "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "University of Pavia",
+     "citta": "Pavia",
      "regione": "Lombardia",
      "partner": false,
      "contatto": null,
