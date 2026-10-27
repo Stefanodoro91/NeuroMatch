@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-10-26T08:47+00:00",
+ "generato_il": "2026-10-27T08:53+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -1690,7 +1690,7 @@
     "Placebo",
     "Pembrolizumab"
    ],
-   "aggiornato_registro": "2026-10-20",
+   "aggiornato_registro": "2026-10-26",
    "descrizione_originale": "This is a study evaluating the efficacy and safety of calderasib with pembrolizumab as first-line treatment in participants with locally advanced or metastatic non-small cell lung cancer (NSCLC) with identified Kirsten rat sarcoma viral oncogene homolog G12C (KRAS G12C) mutation and programmed cell death ligand 1 (PD-L1) tumor proportion score (TPS) ≥50%. There is one primary study hypothesis:\n\nCombination of calderasib and pembrolizumab is superior to placebo plus pembrolizumab with respect to progression free survival (PFS) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by blinded independent central review (BICR).",
    "siti": [
     {
@@ -3023,7 +3023,7 @@
    "interventi": [
     "Behavioral Treatment"
    ],
-   "aggiornato_registro": "2026-02-20",
+   "aggiornato_registro": "2026-10-26",
    "descrizione_originale": "Primary progressive aphasia (PPA) is an umbrella term used to refer to several clinical variants that manifest as an insidious deterioration of speech/language skills, usually due to frontotemporal lobar degeneration and/or Alzheimer's disease. Consensus criteria have been proposed by an international community regarding the sub-classification of PPA into three variants: (1) semantic variant PPA, characterized by impaired confrontation naming and single-word comprehension; (2) logopenic variant PPA), characterised by word-finding difficulties and sentence repetition deficits; and (3) non-fluent variant, characterised by agrammatism with or without apraxia of speech.\n\nSpeech and language therapists (SLTs) play a crucial role in the diagnostic process and in setting a therapeutic path along with monitoring the evolution of the clinical picture. Despite growing evidence supporting the benefits of speech-language intervention, the frequency with which individuals with PPA are referred for speech and language services, is suboptimal likely due to skepticism regarding the value of speech and language therapy in the context of neurodegeneration, the scarcity of SLTs with expertise in the treatment of PPA, the lack of awareness regarding the role of the SLT amongst referrers, and the geographical barriers that impede access to in-person speech and language services. In Italy, patients with PPA are rarely offered treatment options due to a lack of understanding of the disorder on the ",
    "siti": [
     {
@@ -9177,7 +9177,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "23/10/2026",
+   "aggiornato_registro": "26/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -10553,7 +10553,7 @@
    "interventi": [
     ""
    ],
-   "aggiornato_registro": "23/10/2026",
+   "aggiornato_registro": "26/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -12181,7 +12181,7 @@
    "interventi": [
     "AUBAGIO 14 mg film-coated tablets, COLESTYRAMINE\r, AUBAGIO 14 mg film-coated tablets, Matched placebo for test product frexalimab, Frexalimab, Matched placebo for comparator teriflunomide, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets, AUBAGIO 14 mg film-coated tablets"
    ],
-   "aggiornato_registro": "22/10/2026",
+   "aggiornato_registro": "26/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13943,9 +13943,9 @@
    "eta_max": null,
    "sponsor": "Zydus Therapeutics Inc.",
    "interventi": [
-    "Usnoflast, Placebo will be identical to Usnoflast capsules in terms of size, shape, and color., Usnoflast"
+    "Usnoflast, Usnoflast, Placebo will be identical to Usnoflast capsules in terms of size, shape, and color."
    ],
-   "aggiornato_registro": "24/07/2026",
+   "aggiornato_registro": "26/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14287,7 +14287,7 @@
    "interventi": [
     "Placebo to match IMP Lu AF28996"
    ],
-   "aggiornato_registro": "01/10/2026",
+   "aggiornato_registro": "26/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -16293,57 +16293,6 @@
    "testo_generato": "regole"
   },
   {
-   "id": "NCT06337578",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT06337578",
-   "titolo_originale": "Advances in Telephone-based Cognitive Screening Procedures",
-   "macrogruppi": [
-    "ictus",
-    "parkinson",
-    "sla",
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "Amyotrophic Lateral Sclerosis",
-    "Alzheimer's Disease",
-    "Lewy Body Dementia",
-    "Frontotemporal Degeneration",
-    "Cerebrovascular Disorders"
-   ],
-   "tipo": "osservazionale",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": 100.0,
-   "sponsor": "Istituto Auxologico Italiano",
-   "interventi": [
-    "Telephone-based neuropsychological assessment - ALS",
-    "Telephone-based neuropsychological assessment - AD, LBD, FTD and CVD",
-    "Telephone-based and in-person cognitive screening - NIs"
-   ],
-   "aggiornato_registro": "2024-03-29",
-   "descrizione_originale": "1. Background\n\n   Cognitive screening procedures via performance-based tests represent an essential, albeit preliminary, element within the diagnostic and interventional process as addressed to patients with chronic neurological disorders. Furthermore, in these populations, cognitive screening measures are often employed as outcomes in epidemiological settings, as well as endpoints in clinical trials. Therefore, cognitive screeners need to possess robust clinimetric and clinical usability properties - the investigation of which must be country-specific (i.e., specific to each language and culture).\n\n   The need for such clinimetric and feasibility studies is even more true if referred to telephone-based cognitive screening (TBCS) procedures - which, until recently, have been mostly neglected in Italy, despite having the potential to bring clear benefits to clinical practice and research. In fact, TBCS techniques allow, through the use of a very widespread, accessible and easy-to-use telecommunication medium, to break down the geographical, logistical, socio-demographic and organizational barriers that make it difficult and/or prevent 1) access to these clinical services and 2) the continuity of their provision, as well as the creation and completion of 3) large-scale epidemiological studies and 4) decentralized clinical trials. However, although some TBCS tests have recently been developed and standardized in Italy, their clinimetric properties and clinical usability in popul",
-   "siti": [
-    {
-     "nome": "Istituto Auxologico Italiano",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": null,
-   "titolo_it": "Studio osservazionale su persone con ictus",
-   "sintesi_it": "Studio osservazionale su persone con ictus: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 280 partecipanti.",
-   "intervento_it": null,
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
    "id": "NCT06339398",
    "id_secondari": [],
    "fonti": [
@@ -17476,7 +17425,7 @@
     "Remibrutinib oral treatment",
     "Ocrelizumab"
    ],
-   "aggiornato_registro": "2026-08-26",
+   "aggiornato_registro": "2026-10-26",
    "descrizione_originale": "The purpose of this Phase 3b study is to assess the efficacy, safety and tolerability of remibrutinib after switching from ocrelizumab and compared to continuous ocrelizumab treatment, in patients living with relapsing multiple sclerosis (plwRMS).",
    "siti": [
     {
@@ -20906,6 +20855,52 @@
    "titolo_it": "Dispositivo medico per ictus: PhiCube",
    "sintesi_it": "Studio che valuta un dispositivo medico (PhiCube) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. In totale lo studio prevede circa 80 partecipanti.",
    "intervento_it": "Dispositivo medico (PhiCube)",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "NCT07894900",
+   "id_secondari": [],
+   "fonti": [
+    "ClinicalTrials.gov"
+   ],
+   "url": "https://clinicaltrials.gov/study/NCT07894900",
+   "titolo_originale": "Twenty-five Years of Advanced RadioTherapy at San Raffaele Hospital",
+   "macrogruppi": [
+    "parkinson"
+   ],
+   "condizioni": [
+    "Malignant Tumor",
+    "Benign Neoplasm",
+    "Parkinson Disease",
+    "Trigeminal Neuralgia",
+    "Arteriovenous Malformations"
+   ],
+   "tipo": "osservazionale",
+   "fase": null,
+   "stato": "Reclutamento in apertura",
+   "eta_min": 6.0,
+   "eta_max": 90.0,
+   "sponsor": "IRCCS San Raffaele",
+   "interventi": [
+    "Advanced radiotherapy techniques"
+   ],
+   "aggiornato_registro": "2026-10-26",
+   "descrizione_originale": "This retrospective observational study aims to evaluate the efficacy and toxicity of advanced radiotherapy (ART) techniques- intensity-modulated radiotherapy (IMRT), image-guided radiotherapy (IGRT), and stereotactic radiotherapy (SRT)-employed over the past 25 years and 5 months at the IRCCS Ospedale San Raffaele, using conventional fractionation, moderate hypofractionation, and ultra-hypofractionation. The primary objective is local control (biochemical control for prostate cancer).",
+   "siti": [
+    {
+     "nome": "Department of Radiation Oncology, IRCCS San Raffaele Scientific Institute",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Studio osservazionale su persone con malattia di Parkinson",
+   "sintesi_it": "Studio osservazionale su persone con malattia di Parkinson: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 10000 partecipanti.",
+   "intervento_it": null,
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   }
