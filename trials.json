@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-10-30T09:53+00:00",
+ "generato_il": "2026-10-31T09:31+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -2278,7 +2278,7 @@
     "Intismeran autogene",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-16",
+   "aggiornato_registro": "2026-10-30",
    "descrizione_originale": "The goal of this study is to learn if people who receive intismeran autogene and pembrolizumab after surgery are cancer-free longer than people who receive placebo and pembrolizumab. Researchers want to know if giving intismeran autogene and pembrolizumab after surgery can help prevent the cancer from coming back in people with non-small cell lung cancer (NSCLC) whose tumors did not respond completely to treatment before surgery (neoadjuvant treatment).",
    "siti": [
     {
@@ -2487,7 +2487,7 @@
     "NEU-411",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-02",
+   "aggiornato_registro": "2026-10-30",
    "descrizione_originale": "The goal of this Phase 2 clinical trial is to investigate the efficacy and safety of NEU-411 in men and women aged 40-80 years with early Parkinson's Disease (PD) who have predicted elevations in the activity of the \"leucine-rich repeat kinase 2\" (\"LRRK2\" for short) pathway based on their genetic profile. A DNA test will be used to identify the \"LRRK2-driven\" population with predicted elevation in the LRRK2 pathway.",
    "siti": [
     {
@@ -13399,7 +13399,7 @@
    "interventi": [
     "KarX-EC, KarX-EC, KarX-EC, KarX-EC, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "29/10/2026",
+   "aggiornato_registro": "30/10/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14384,6 +14384,64 @@
    "placebo": null,
    "titolo_it": "Farmaco per malattia di Parkinson",
    "sintesi_it": "Studio di therapeutic exploratory (phase ii) che valuta un farmaco in persone con malattia di Parkinson.",
+   "intervento_it": "Farmaco",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "2026-526158-14-00",
+   "id_secondari": [],
+   "fonti": [
+    "CTIS"
+   ],
+   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2026-526158-14-00",
+   "titolo_originale": "A PHASE II, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, MULTICENTER  STUDY TO EVALUATE THE EFFICACY,  SAFETY, AND PHARMACOKINETICS OF  RO7568282 IN PARTICIPANTS WITH EARLY SYMPTOMATIC ALZHEIMER’S DISEASE",
+   "macrogruppi": [
+    "invecchiamento"
+   ],
+   "condizioni": [
+    "Early Symptomatic Alzheimer’s Disease (AD)"
+   ],
+   "tipo": "interventistico",
+   "fase": "Therapeutic exploratory (Phase II)",
+   "stato": "In corso (autorizzato UE)",
+   "eta_min": null,
+   "eta_max": null,
+   "sponsor": "F. Hoffmann-La Roche AG",
+   "interventi": [
+    "RO7568282, Placebo RO7568282, RO7568282, RO7568282, RO7568282"
+   ],
+   "aggiornato_registro": "30/10/2026",
+   "descrizione_originale": null,
+   "siti": [
+    {
+     "nome": "Centro non specificato",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Brescia",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Farmaco per demenza o declino cognitivo",
+   "sintesi_it": "Studio di therapeutic exploratory (phase ii) che valuta un farmaco in persone con demenza o declino cognitivo.",
    "intervento_it": "Farmaco",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
