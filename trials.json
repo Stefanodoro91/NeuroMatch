@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-02T10:53+00:00",
+ "generato_il": "2026-11-03T10:44+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -13397,9 +13397,9 @@
    "eta_max": null,
    "sponsor": "Bristol-Myers Squibb Services Unlimited Company",
    "interventi": [
-    "KarX-EC, KarX-EC, KarX-EC, KarX-EC, KarXT, KarXT, KarXT, KarXT"
+    "KarX-EC, KarXT, KarXT, KarX-EC, KarX-EC, KarXT, KarXT, KarX-EC"
    ],
-   "aggiornato_registro": "30/10/2026",
+   "aggiornato_registro": "02/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14820,99 +14820,6 @@
    "testo_generato": "regole"
   },
   {
-   "id": "NCT04607174",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT04607174",
-   "titolo_originale": "Voluntary Activation During Isokinetic Contractions in Subjects with Neuromotor Disorders",
-   "macrogruppi": [
-    "sm",
-    "parkinson"
-   ],
-   "condizioni": [
-    "Multiple Sclerosis",
-    "Poststroke/CVA Hemiparesis",
-    "Parkinson Disease",
-    "Knee Impairment"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": 70.0,
-   "sponsor": "Istituto Auxologico Italiano",
-   "interventi": [
-    "Pathologic group"
-   ],
-   "aggiornato_registro": "2024-10-24",
-   "descrizione_originale": "Activation is the amount of voluntary recruitment of a muscle during voluntary contraction. Full activation implies the recruitment of all muscle fibres at their tetanic frequency. In healthy subjects, and even in sports performances, full activation may be rarely achieved despite a subjectively maximal effort.\n\nHighly decreased activation has been observed in patients affected by various orthopaedic and neurological disorders. In these subjects, paresis may be caused or aggravated by primitive impairments of the central nervous system and/or, by stimuli arising from peripheral damaged tissues that inhibit the corticospinal or the intraspinal recruitment of motoneurones (\"arthrogenous muscle weakness\"). There are numerous investigations in the literature on activation measured during isometric contractions, while they are substantially missing as far as isokinetic concentric contractions are concerned. There are reasons to suppose that, contrary to what has been demonstrated for healthy subjects, in patients with various motor impairments the activation is diminished the more, the higher is the joint rotation speed.\n\nThe present study aims to investigate the amount of activation of the quadriceps femoris during subjectively maximal isometric contractions at 40° knee flexion (0°=complete extension) and isokinetic concentric contractions at an angular velocity of 100°/s in patients with various orthopaedic and neurologic conditions.\n\nActivation will be measured on an isokinetic",
-   "siti": [
-    {
-     "nome": "Istituto Auxologico Italiano",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Intervento per sclerosi multipla: Pathologic group",
-   "sintesi_it": "Studio che valuta un intervento (Pathologic group) in persone con sclerosi multipla. In totale lo studio prevede circa 20 partecipanti.",
-   "intervento_it": "Intervento (Pathologic group)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT04635436",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT04635436",
-   "titolo_originale": "Efficacy of Split Gait in the Treatment of Dynamic Asymmetries in Subjects With Pathologic Claudication",
-   "macrogruppi": [
-    "sm",
-    "parkinson"
-   ],
-   "condizioni": [
-    "Multiple Sclerosis",
-    "Poststroke/CVA Hemiparesis",
-    "Parkinson Disease",
-    "Amputation",
-    "Knee Impairment"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": 70.0,
-   "sponsor": "Istituto Auxologico Italiano",
-   "interventi": [
-    "Split-belt treadmill walking."
-   ],
-   "aggiornato_registro": "2024-10-08",
-   "descrizione_originale": "Walking on a split-belt treadmill (each of the two belts running at a different speed) imposes an asymmetrical gait, mimicking limping that has been observed in various pathologic conditions. This walking modality has been proposed as an experimental paradigm to investigate the flexibility of the neural control of gait and as a form of therapeutic exercise for hemi-paretic patients. However, the scarcity of dynamic investigations both for segmental aspects and for the entire body system, represented by the centre of mass, challenges the validity of the available findings on split gait.\n\nCompared with overground gait in hemiplegia, split gait entails an opposite spatial and dynamic asymmetry. The faster leg mimics the paretic limb temporally, but the unimpaired limb from the spatial and dynamic point of view. These differences suggest that a partial shift in perspective may help to clarify the potential of the split gait as a rehabilitation tool.\n\nThe aim of the present study is to investigate the dynamic asymmetries of lower limbs in adults with unilateral motor impairments (e.g. hemiplegia post-stroke, Parkinson's disease, multiple sclerosis, unilateral amputation, surgical orthopedic interventions) during adaptation to gait on a split-belt treadmill. The sagittal power provided by the ankle and the total mechanical energy of the centre of mass will be thoroughly studied. The time course of phenomena both during gait when the belts are running at different speed and when the",
-   "siti": [
-    {
-     "nome": "Istituto Auxologico Italiano",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Intervento per sclerosi multipla: Split-belt treadmill walking.",
-   "sintesi_it": "Studio che valuta un intervento (Split-belt treadmill walking.) in persone con sclerosi multipla. In totale lo studio prevede circa 20 partecipanti.",
-   "intervento_it": "Intervento (Split-belt treadmill walking.)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
    "id": "NCT05319730",
    "id_secondari": [
     "2023-505189-26-00"
@@ -15709,55 +15616,6 @@
    "testo_generato": "regole"
   },
   {
-   "id": "NCT05954741",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT05954741",
-   "titolo_originale": "Multidimensional Rehabilitation Programs for Cognitive Impairment in Comorbid Outpatients: a Randomized Controlled Trial",
-   "macrogruppi": [
-    "ictus",
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "Cognitive Impairment",
-    "Dementia",
-    "Comorbidities and Coexisting Conditions",
-    "Vascular Dementia",
-    "Dementia, Mixed"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 65.0,
-   "eta_max": 80.0,
-   "sponsor": "Istituti Clinici Scientifici Maugeri SpA",
-   "interventi": [
-    "Motor rehabilitation alone",
-    "Motor rehabilitation and Cognitive rehabilitation (paper-based)",
-    "Motor rehabilitation and cognitive rehabilitation (digital-based)"
-   ],
-   "aggiornato_registro": "2024-10-03",
-   "descrizione_originale": "Dementias secondary to cerebrovascular diseases are of significant epidemiological and clinical relevance. As a result, the management of individuals with comorbid dementia should involve early diagnosis, effective treatment, and patient-centered care planning, both in specialist and in non-specialist settings. It is well known that physical exercise can improve various aspects of health, including resistance, balance, strength, and cognitive functions such as attention and executive performance. However, the efficacy of cognitive rehabilitation is still not definitive and requires further clarification. Preliminary evidence suggests that a combination of cognitive and motor training along with novel technological approaches has the potential to maintain or improve compromised cognitive function more effectively compared to a single intervention. A multidomain intervention could enhance cognitive functioning in elderly individuals with multiple morbidities. In the present study, patients with early neurocognitive impairment based on a vascular disorder or due to multiple etiologies, as defined by the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, will be screened in an outpatient multidisciplinary setting and subsequently undergo different models of rehabilitation training.\n\nPrimary aim of this study:\n\n\\- Assess the effectiveness of different rehabilitation protocols for improving cognitive functions in patients with comorbid cognitive impairment. Specifi",
-   "siti": [
-    {
-     "nome": "ICS Maugeri - Montescano",
-     "citta": "Montescano",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Intervento per ictus: Motor rehabilitation alone",
-   "sintesi_it": "Studio che valuta un intervento (Motor rehabilitation alone) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. In totale lo studio prevede circa 75 partecipanti.",
-   "intervento_it": "Intervento (Motor rehabilitation alone)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
    "id": "NCT05963698",
    "id_secondari": [],
    "fonti": [
@@ -15962,57 +15820,6 @@
    "titolo_it": "Intervento per ictus: Rehabilitation protocol: AOT+NMES",
    "sintesi_it": "Studio che valuta un intervento (Rehabilitation protocol: AOT+NMES) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 60 partecipanti.",
    "intervento_it": "Intervento (Rehabilitation protocol: AOT+NMES)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT06109324",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT06109324",
-   "titolo_originale": "Sensory and Cognitive Outcomes of Robotic Exercises in Stroke (SCORES)",
-   "macrogruppi": [
-    "ictus"
-   ],
-   "condizioni": [
-    "Stroke"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": 85.0,
-   "sponsor": "Fondazione Don Carlo Gnocchi ETS",
-   "interventi": [
-    "Robotic Rehabilitation of the upper limb",
-    "Conventional Rehabilitation of the upper limb"
-   ],
-   "aggiornato_registro": "2024-10-15",
-   "descrizione_originale": "Based on the findings of meta-analyses, upper limb robotic rehabilitation has shown to enhance daily living activities, motor function, and strength in stroke patients. However, when compared to traditional methods, recent randomized controlled trials conducted on larger participant groups failed to identify significant differences in motor-related outcomes between the two approaches.\n\nIn addition to motor deficits, stroke survivors often experience cognitive decline and sensory disturbances, which can significantly impede their recovery process. The introduction of multisensory stimulation and an enriched environment through robotic interventions may offer valuable supplementary treatments in these specific areas. Nevertheless, this aspect of treatment has not been thoroughly explored.\n\nThis study seeks to assess the effectiveness of upper limb robotic rehabilitation in individuals recovering from subacute strokes, in comparison to conventional treatments. Specifically, it aims to determine whether this robotic therapy can lead to improvements in (a) cognitive deficits, (b) somatosensory impairment, and (c) how these sensory and cognitive deficits influence the process of motor recovery.",
-   "siti": [
-    {
-     "nome": "Fondazione Don Carlo Gnocchi - Centro Santa Maria della Provvidenza",
-     "citta": "Roma",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "IRCCS Fondazione Don Carlo Gnocchi",
-     "citta": "Florence",
-     "regione": "Toscana",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Intervento per ictus: Robotic Rehabilitation of the upper limb",
-   "sintesi_it": "Studio che valuta un intervento (Robotic Rehabilitation of the upper limb) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 126 partecipanti.",
-   "intervento_it": "Intervento (Robotic Rehabilitation of the upper limb)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
@@ -17030,58 +16837,6 @@
    "titolo_it": "Farmaco per demenza o declino cognitivo: Remternetug",
    "sintesi_it": "Studio di fase 2 / fase 3 che valuta un farmaco (Remternetug) in persone con demenza o declino cognitivo. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 280 partecipanti.",
    "intervento_it": "Farmaco (Remternetug)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT06649968",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT06649968",
-   "titolo_originale": "Clinical Validation of an Instrumented Glove for Sensorimotor Rehabilitation",
-   "macrogruppi": [
-    "ictus"
-   ],
-   "condizioni": [
-    "Stroke"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": null,
-   "sponsor": "Christian Cipriani",
-   "interventi": [
-    "DESC-Glove (active)",
-    "DESC-Glove (sham)",
-    "Traditional rehabilitation"
-   ],
-   "aggiornato_registro": "2024-10-31",
-   "descrizione_originale": "The goal of this clinical trial is to evaluate the DESC-Glove, an instrumented glove developed for sensorimotor rehabilitation in individuals recovering from a stroke, utilizing non-invasive vibrational feedback. The primary objective is to assess the technical functionality, safety, and reliability of the device during post-stroke rehabilitation, providing insights for future technical and functional improvements.\n\nThe secondary objectives are:\n\n1. To evaluate the usability and acceptability of the device in clinical rehabilitation from the perspectives of both patients and healthcare professionals;\n2. To assess the short-term effects of the DESC-Glove on sensorimotor performance and manual dexterity in post-stroke individuals.\n\nTo meet the second objective, researchers will compare three groups:\n\nan experimental treatment group (using the DESC-Glove during hand rehabilitation), a sham control group (using the DESC-Glove without vibration), and a conventional control group (receiving hand rehabilitation without the device).",
-   "siti": [
-    {
-     "nome": "Fondazione Don Carlo Gnocchi, Centro Santa Maria della Provvidenza",
-     "citta": "Roma",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Fondazione Don Carlo Gnocchi, IRCCS Santa Maria Nascente",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": true,
-   "titolo_it": "Dispositivo medico per ictus: DESC-Glove (active)",
-   "sintesi_it": "Studio che valuta un dispositivo medico (DESC-Glove (active)) in persone con ictus. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve una procedura simulata, senza effetto. I partecipanti non sanno a quale gruppo appartengono. In totale lo studio prevede circa 47 partecipanti.",
-   "intervento_it": "Dispositivo medico (DESC-Glove (active))",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
