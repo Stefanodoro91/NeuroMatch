@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-03T10:44+00:00",
+ "generato_il": "2026-11-04T10:46+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -1177,7 +1177,7 @@
     "Pembrolizumab",
     "Supportive care measures"
    ],
-   "aggiornato_registro": "2026-10-27",
+   "aggiornato_registro": "2026-11-03",
    "descrizione_originale": "The primary objective of the study is to compare sacituzumab tirumotecan combined with pembrolizumab to pembrolizumab alone with respect to overall survival (OS). The primary hypothesis is that the combination of sacituzumab tirumotecan and pembrolizumab is superior to pembrolizumab alone with respect to OS.",
    "siti": [
     {
@@ -4958,7 +4958,7 @@
     "Xanomeline Enteric Capsule",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-08",
+   "aggiornato_registro": "2026-11-03",
    "descrizione_originale": "The purpose of this study is to evaluate the efficacy and safety of KarXT + KarX-EC in adult participants with agitation related to Alzheimer's Disease.",
    "siti": [
     {
@@ -7017,20 +7017,6 @@
    "descrizione_originale": "The purpose of this clinical study is to evaluate the feasibility, usability, and motivational impact of VirtualPark, a virtual reality-based dual-task rehabilitation system, in adults with neurological and age-related conditions.\n\nVirtualPark is a virtual reality application designed to deliver cognitive exercises during cycling training using a commercially available ergometer (THERA-Trainer Tigo). The system integrates physical and cognitive tasks in simulated real-life environments.\n\nThe intervention integrates motor and cognitive training tasks targeting domains such as attention, inhibition, working memory, and navigation.\n\nThis is a prospective, multicenter, randomized, cross-over pilot study. It will compare cycling training performed with and without virtual reality. Participants will complete both intervention conditions over a 4-week period separated by a wash-out phase with standard rehabilitation activities. The order of conditions will be randomized.\n\nThe study will assess motivation during rehabilitation training, usability and user experience of the system, as well as exploratory effects on cognitive and motor performance, functional abilities, perceived exertion, and safety.\n\nThe study will enroll adult participants (≥18 years) with conditions such as stroke, Parkinson's disease, multiple sclerosis, amyotrophic lateral sclerosis, mild cognitive impairment, spinal cord injury, and frail older adults.",
    "siti": [
     {
-     "nome": "Istituti a Carattere Scientifico Maugeri Milano Camaldoli",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Christian Lunetta",
-      "ruolo": "Referente dello studio",
-      "telefono": "0039-02-50725266",
-      "email": null,
-      "origine": "registro"
-     },
-     "responsabile": null
-    },
-    {
      "nome": "Istituti a Carattere Scientifico Maugeri Pavia",
      "citta": "Pavia",
      "regione": "Lombardia",
@@ -7056,6 +7042,14 @@
       "email": "carmelo.chisari@unipi.it",
       "origine": "registro"
      },
+     "responsabile": null
+    },
+    {
+     "nome": "Istituti a Carattere Scientifico Maugeri Milano Camaldoli",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
      "responsabile": null
     },
     {
@@ -7846,6 +7840,113 @@
    "placebo": null,
    "titolo_it": "Studio osservazionale su persone con SLA",
    "sintesi_it": "Studio osservazionale su persone con SLA: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 200 partecipanti.",
+   "intervento_it": null,
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "NCT07911878",
+   "id_secondari": [],
+   "fonti": [
+    "ClinicalTrials.gov"
+   ],
+   "url": "https://clinicaltrials.gov/study/NCT07911878",
+   "titolo_originale": "Development, Validation and Normative Data of the Italian Battery for the Recognition of Famous Faces (FAME)",
+   "macrogruppi": [
+    "ictus",
+    "invecchiamento"
+   ],
+   "condizioni": [
+    "Stroke",
+    "Alzheimer s Disease",
+    "Frontotemporal Degeneration (FTD)"
+   ],
+   "tipo": "osservazionale",
+   "fase": null,
+   "stato": "In reclutamento",
+   "eta_min": 40.0,
+   "eta_max": 85.0,
+   "sponsor": "Istituti Clinici Scientifici Maugeri SpA",
+   "interventi": [
+    "Neuropsychological assessment using the I-FACE battery"
+   ],
+   "aggiornato_registro": "2026-11-03",
+   "descrizione_originale": "The I-FACE project aims to develop and validate a battery to assess famous-face recognition in people with neurodegenerative diseases and stroke. It will examine face naming, familiarity, and semantic knowledge, establish norms for the Italian population, and test how well the measures identify recognition difficulties in patients with frontotemporal dementia, Alzheimer's disease, and stroke.",
+   "siti": [
+    {
+     "nome": "IRCCS Maugeri Castel Goffredo",
+     "citta": "Castel Goffredo",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Giuliana Vezzadini, MD",
+      "ruolo": "Referente dello studio",
+      "telefono": null,
+      "email": "giuliana.vezzadini@icsmaugeri.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    },
+    {
+     "nome": "IRCCS Maugeri Lumezzane",
+     "citta": "Lumezzane",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Lidia Gazzi, MSc",
+      "ruolo": "Referente dello studio",
+      "telefono": "+39 030 825 3011",
+      "email": "lidia.gazzi@icsmaugeri.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    },
+    {
+     "nome": "Istituti Clinici Scientifici Maugeri IRCCS Milano",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Claudia Bossi, MSc",
+      "ruolo": "Referente dello studio",
+      "telefono": "+39 0382 592048",
+      "email": "claudia.bossi@icsmaugeri.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    },
+    {
+     "nome": "IRCCS Maugeri Montescano",
+     "citta": "Montescano",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Antonia Pierobon, MSc",
+      "ruolo": "Referente dello studio",
+      "telefono": "0385 2471",
+      "email": "antonia.pierobon@icsmaugeri.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    },
+    {
+     "nome": "IRCCS Maugeri Pavia",
+     "citta": "Pavia",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Marina Manera, MSc",
+      "ruolo": "Referente dello studio",
+      "telefono": "0382 592952",
+      "email": "marina.manera@icsmaugeri.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Studio osservazionale su persone con ictus",
+   "sintesi_it": "Studio osservazionale su persone con ictus: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 300 partecipanti.",
    "intervento_it": null,
    "cosa_comporta_it": null,
    "testo_generato": "regole"
@@ -13397,9 +13498,9 @@
    "eta_max": null,
    "sponsor": "Bristol-Myers Squibb Services Unlimited Company",
    "interventi": [
-    "KarX-EC, KarXT, KarXT, KarX-EC, KarX-EC, KarXT, KarXT, KarX-EC"
+    "KarX-EC, KarXT, KarXT, KarXT, KarX-EC, KarXT, KarX-EC, KarX-EC"
    ],
-   "aggiornato_registro": "02/11/2026",
+   "aggiornato_registro": "03/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14389,6 +14490,72 @@
    "testo_generato": "regole"
   },
   {
+   "id": "2026-525688-41-00",
+   "id_secondari": [],
+   "fonti": [
+    "CTIS"
+   ],
+   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2026-525688-41-00",
+   "titolo_originale": "A Phase 3 extension study to investigate long-term safety and tolerability of frexalimab in participants with multiple sclerosis.",
+   "macrogruppi": [
+    "sm"
+   ],
+   "condizioni": [
+    "multiple sclerosis"
+   ],
+   "tipo": "interventistico",
+   "fase": "Therapeutic confirmatory  (Phase III)",
+   "stato": "In corso (autorizzato UE)",
+   "eta_min": null,
+   "eta_max": null,
+   "sponsor": "Sanofi-Aventis Recherche & Developpement",
+   "interventi": [
+    "AUBAGIO 14 mg film-coated tablets, Matched placebo for comparator teriflunomide, COLESTYRAMINE\r, Frexalimab, Matched placebo for test product frexalimab"
+   ],
+   "aggiornato_registro": "03/11/2026",
+   "descrizione_originale": null,
+   "siti": [
+    {
+     "nome": "Centro non specificato",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Rozzano",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Saronno",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Farmaco per sclerosi multipla",
+   "sintesi_it": "Studio di therapeutic confirmatory  (phase iii) che valuta un farmaco in persone con sclerosi multipla.",
+   "intervento_it": "Farmaco",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
    "id": "2026-526158-14-00",
    "id_secondari": [],
    "fonti": [
@@ -14411,7 +14578,7 @@
    "interventi": [
     "RO7568282, Placebo RO7568282, RO7568282, RO7568282, RO7568282"
    ],
-   "aggiornato_registro": "30/10/2026",
+   "aggiornato_registro": "03/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -16365,7 +16532,7 @@
     "ITI-1284",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-09-29",
+   "aggiornato_registro": "2026-11-03",
    "descrizione_originale": "This is a multicenter, randomized, double-blind, parallel-group, placebo-controlled, flexible-dose study evaluating the efficacy, safety, and tolerability of ITI-1284 compared with placebo in the treatment of psychosis in patients with AD.",
    "siti": [
     {
