@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-05T10:43+00:00",
+ "generato_il": "2026-11-06T10:43+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -6210,7 +6210,7 @@
     "Transcranial Alternating Current Stimulation",
     "Sham Transcranial Alternating Current Stimulation"
    ],
-   "aggiornato_registro": "2026-09-22",
+   "aggiornato_registro": "2026-11-05",
    "descrizione_originale": "The aim of the study is to evaluate the safety, feasibility, clinical and biological efficacy, and predictors of efficacy of an intervention consisting of transcranial alternating current stimulation (tACS) in patients with Lewy Body Dementia (DLB).\n\nIn neurodegenerative diseases, like DLB, the process of neurodegeneration is accompanied by a significant alteration in oscillatory activity.\n\ntACS is a neurophysiological method of non-invasive modulation of the excitability of the central nervous system that uses a mild electrical current. Recent studies have demonstrated the safety and efficacy of this method in modulating the natural brain oscillation frequencies underlying multiple cognitive processes, such as verbal memory, perception, and working memory. Preliminary data show that single stimulation with occipital α-tACS results in a significant improvement in visuospatial abilities and executive functions in patients wih DLB.\n\nThe study is double blind, randomised and placebo-controlled, participants will be randomised into two groups: group 1, participants will receive real tACS for 2 weeks, from Wednesday to Tuesday (5 sessions/week, lasting approximately 60 minutes each); and group 2, participants will receive placebo tACS for 2 weeks (5 sessions/week, lasting approximately 60 minutes each).\n\nVisits will take place at the beginning of the study (T00), after 2 weeks (T02), and 12 weeks (T12, follow-up). During each visit, participants undergo the following procedures: (",
    "siti": [
     {
@@ -6878,53 +6878,6 @@
    "placebo": null,
    "titolo_it": "Studio osservazionale su persone con demenza o declino cognitivo",
    "sintesi_it": "Studio osservazionale su persone con demenza o declino cognitivo: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 265 partecipanti.",
-   "intervento_it": null,
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT07572838",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT07572838",
-   "titolo_originale": "Alter-Ego as an Assistive Robotic Device.",
-   "macrogruppi": [
-    "sla"
-   ],
-   "condizioni": [
-    "Amyotrophic Lateral Sclerosis",
-    "Health Adult Subjects"
-   ],
-   "tipo": "osservazionale",
-   "fase": null,
-   "stato": "Reclutamento in apertura",
-   "eta_min": 18.0,
-   "eta_max": 80.0,
-   "sponsor": "University of Pisa",
-   "interventi": [],
-   "aggiornato_registro": "2026-05-07",
-   "descrizione_originale": "The ALTER-EGO study is a monocentric, observational clinical investigation designed to evaluate the safety, usability, and feasibility of the humanoid robotic platform Alter-Ego as an assistive device in hospital and simulated home-care settings. The system is intended to support healthcare and rehabilitation professionals in the management of patients with Amyotrophic Lateral Sclerosis (ALS). Alter-Ego is an anthropomorphic, wheeled, self-balancing social robot equipped with compliant robotic arms and SoftHand synergistic grippers. It operates in teleoperated, semi-autonomous, or fully autonomous modes and integrates advanced navigation, mapping, object manipulation, and natural language processing capabilities. The robot is not classified as a medical device under EU Regulation 2017/745, as it does not perform diagnostic or therapeutic functions, but provides logistical, communicative, and organizational support.\n\nThe study is conducted at ICS Maugeri IRCCS (Milan Camaldoli). Participants include healthcare professionals (physicians, nurses, physiotherapists, occupational therapists, speech therapists, and healthcare assistants) and up to 40 hospitalized ALS patients. Patients are not direct operators of the robot but provide experiential feedback.\n\nA total of 40 experiments are organized into four clusters:\n\nCluster 1 - Telemedicine (Teleoperated or Semi-Autonomous Mode)\n\nWithin a simulated home-care environment, Alter-Ego supports remote clinical and rehabilitation activi",
-   "siti": [
-    {
-     "nome": "Istituti Clinici Scientifici Maugeri IRCCS, Milan Institute",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Ilaria Consolo",
-      "ruolo": "Referente dello studio",
-      "telefono": "+39 0250725261",
-      "email": "ilaria.consolo@icsmaugeri.it",
-      "origine": "registro"
-     },
-     "responsabile": null
-    }
-   ],
-   "placebo": null,
-   "titolo_it": "Studio osservazionale su persone con SLA",
-   "sintesi_it": "Studio osservazionale su persone con SLA: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 52 partecipanti.",
    "intervento_it": null,
    "cosa_comporta_it": null,
    "testo_generato": "regole"
@@ -7708,7 +7661,7 @@
     "Sham Transcranial Alternating Current Stimulation",
     "Individualized Computerized Memory Training"
    ],
-   "aggiornato_registro": "2026-09-24",
+   "aggiornato_registro": "2026-11-05",
    "descrizione_originale": "The aim of the study is to evaluate the clinical and biological efficacy, as well as predictors of efficacy, of a home-based intervention combining transcranial alternating current stimulation (tACS) with individualized computerized cognitive training in patients with mild Alzheimer's disease (AD).\n\nIn neurodegenerative diseases, including AD, neurodegeneration is accompanied by alterations in brain oscillatory activity. Restoration of these oscillations through neuronal entrainment has shown beneficial effects in animal models, while previous studies in patients with AD have demonstrated that gamma-frequency tACS applied over the precuneus is safe and well tolerated and is associated with improvements in cognitive performance and cholinergic function, as well as modulation of brain oscillatory activity. Cognitive rehabilitation may also improve memory performance in patients with mild AD. Based on this evidence, the present study investigates a multimodal approach combining gamma-tACS with individualized computerized memory training.\n\nThe study is a multicenter, randomized, placebo-controlled, double-blind trial involving 30 participants with mild AD. Participants will be randomly assigned to one of two groups: Group 1 will receive real gamma-tACS for 8 weeks (5 sessions/week, 60 minutes/session) combined with cognitive training (2 sessions/week, 30 minutes/session); Group 2 will receive sham tACS according to the same schedule, combined with the same cognitive training. tAC",
    "siti": [
     {
@@ -9212,7 +9165,7 @@
    "interventi": [
     "KarXT, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "04/11/2026",
+   "aggiornato_registro": "05/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -12503,7 +12456,7 @@
     "parkinson"
    ],
    "condizioni": [
-    "Parkinson Disease, Idiopathic, Early Parkinson Disease, Parkinson's disease, Idiopathic Parkinson Disease, Parkinson"
+    "Parkinson's disease, Early Parkinson Disease, Parkinson Disease, Idiopathic, Idiopathic Parkinson Disease, Parkinson"
    ],
    "tipo": "interventistico",
    "fase": "Therapeutic exploratory (Phase II)",
@@ -12514,7 +12467,7 @@
    "interventi": [
     "NEU-411, Placebo NEU-411 maleate"
    ],
-   "aggiornato_registro": "07/08/2026",
+   "aggiornato_registro": "05/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14404,7 +14357,7 @@
    "interventi": [
     "Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight., Orelabrutinib"
    ],
-   "aggiornato_registro": "16/10/2026",
+   "aggiornato_registro": "05/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14510,9 +14463,9 @@
    "eta_max": null,
    "sponsor": "Sanofi-Aventis Recherche & Developpement",
    "interventi": [
-    "AUBAGIO 14 mg film-coated tablets, Matched placebo for comparator teriflunomide, COLESTYRAMINE\r, Frexalimab, Matched placebo for test product frexalimab"
+    "Matched placebo for comparator teriflunomide, Matched placebo for test product frexalimab, Frexalimab, COLESTYRAMINE\r, AUBAGIO 14 mg film-coated tablets"
    ],
-   "aggiornato_registro": "04/11/2026",
+   "aggiornato_registro": "05/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14659,6 +14612,64 @@
    "placebo": null,
    "titolo_it": "Farmaco per SLA",
    "sintesi_it": "Studio di therapeutic exploratory (phase ii) che valuta un farmaco in persone con SLA.",
+   "intervento_it": "Farmaco",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "2026-526634-46-00",
+   "id_secondari": [],
+   "fonti": [
+    "CTIS"
+   ],
+   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2026-526634-46-00",
+   "titolo_originale": "A Phase 2, Multicenter, Randomized, Parallel Treatment Arms, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of CP-012B in Participants with Parkinson’s Disease with Early Morning OFF Episodes",
+   "macrogruppi": [
+    "parkinson"
+   ],
+   "condizioni": [
+    "Parkinson’s Disease With Early Morning OFF Episodes"
+   ],
+   "tipo": "interventistico",
+   "fase": "Therapeutic exploratory (Phase II)",
+   "stato": "In corso (autorizzato UE)",
+   "eta_min": null,
+   "eta_max": null,
+   "sponsor": "Contera Pharma A/S",
+   "interventi": [
+    "CP-012B -matching placebo product, CP-012B"
+   ],
+   "aggiornato_registro": "05/11/2026",
+   "descrizione_originale": null,
+   "siti": [
+    {
+     "nome": "Centro non specificato",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Pavia",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Farmaco per malattia di Parkinson",
+   "sintesi_it": "Studio di therapeutic exploratory (phase ii) che valuta un farmaco in persone con malattia di Parkinson.",
    "intervento_it": "Farmaco",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
@@ -18946,7 +18957,7 @@
     "Prasinezumab",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-06",
+   "aggiornato_registro": "2026-11-05",
    "descrizione_originale": "The purpose of this study is to evaluate the efficacy, safety, and pharmacokinetics (PK) of prasinezumab compared with placebo in participants with early-stage Parkinson's disease (PD) on stable symptomatic monotherapy with levodopa.",
    "siti": [
     {
@@ -19230,7 +19241,7 @@
    "eta_max": 85.0,
    "sponsor": "Fondazione I.R.C.C.S. Istituto Neurologico Carlo Besta",
    "interventi": [],
-   "aggiornato_registro": "2026-02-11",
+   "aggiornato_registro": "2026-11-05",
    "descrizione_originale": "The aim of the study is to evaluate the role of cholesterol in the pathogenesis of neurodegenerative dementias. Hypercholesterolemia is a known risk factor for Alzheimer disease (AD), and oxysterols, the principal cholesterol metabolites, are involved in neuroinflammation, amyloid aggregation, and tau accumulation.\n\nOxysterols will be measured in different biological samples (post-mortem brain tissue, CSF, and plasma) from patients with different neurodegenerative dementias, including AD, frontotemporal dementia (FTD), and primary tauopathies. This approach will allow determination of whether their modifications correlate primarily with Aß deposition, tauopathy, or neuronal loss, with the goal of identifying correlations with disease severity and progression.\n\nSince preliminary results suggest that the levels of most oxysterols in the brain significantly increase in parallel with the levels of the enzyme PCSK9, the investigators will explore the role of cholesterol metabolism and PCSK9 in AD and other dementias to evaluate whether cholesterol dysregulation represents a common alteration across these neurodegenerative disorders or is specific to AD",
    "siti": [
     {
