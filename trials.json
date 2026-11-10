@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-09T11:18+00:00",
+ "generato_il": "2026-11-10T10:59+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -2278,7 +2278,7 @@
     "Intismeran autogene",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-30",
+   "aggiornato_registro": "2026-11-09",
    "descrizione_originale": "The goal of this study is to learn if people who receive intismeran autogene and pembrolizumab after surgery are cancer-free longer than people who receive placebo and pembrolizumab. Researchers want to know if giving intismeran autogene and pembrolizumab after surgery can help prevent the cancer from coming back in people with non-small cell lung cancer (NSCLC) whose tumors did not respond completely to treatment before surgery (neoadjuvant treatment).",
    "siti": [
     {
@@ -9079,7 +9079,7 @@
    "interventi": [
     "KarXT, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "08/11/2026",
+   "aggiornato_registro": "09/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14005,7 +14005,7 @@
    "interventi": [
     "Isotone Kochsalz-Lösung 0,9 % Braun Infusionslösung, NIO752"
    ],
-   "aggiornato_registro": "30/09/2026",
+   "aggiornato_registro": "09/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14221,7 +14221,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "21/07/2026",
+   "aggiornato_registro": "09/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -20887,6 +20887,52 @@
    "placebo": null,
    "titolo_it": "Studio osservazionale su persone con malattia di Parkinson",
    "sintesi_it": "Studio osservazionale su persone con malattia di Parkinson: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 10000 partecipanti.",
+   "intervento_it": null,
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "NCT07924371",
+   "id_secondari": [],
+   "fonti": [
+    "ClinicalTrials.gov"
+   ],
+   "url": "https://clinicaltrials.gov/study/NCT07924371",
+   "titolo_originale": "AI-Based Tools for Stroke Diagnosis, Treatment and Outcome Prediction: a Multicentre Prospective Observational Study",
+   "macrogruppi": [
+    "ictus"
+   ],
+   "condizioni": [
+    "Stroke",
+    "Ischemic Stroke",
+    "Intracerebral Hemorrhage",
+    "Transient Ischemic Attack",
+    "Atrial Fibrillation"
+   ],
+   "tipo": "osservazionale",
+   "fase": null,
+   "stato": "In reclutamento",
+   "eta_min": 18.0,
+   "eta_max": null,
+   "sponsor": "Hospital Universitari Vall d'Hebron Research Institute",
+   "interventi": [
+    "Standard of care (no study intervention)"
+   ],
+   "aggiornato_registro": "2026-11-09",
+   "descrizione_originale": "Stroke is a leading cause of death and adult disability. Stroke care is still limited by fragmented care pathways, non-standardised diagnostic work-up and follow-up, and local, non-interoperable data systems across the pre-hospital, in-hospital and post-hospital settings.\n\nUMBRELLA-P is a multicentre, prospective, observational study in 7 university hospitals in 6 European countries (Spain, Italy, Belgium, the Netherlands, Germany and Switzerland). Adults with clinically suspected acute stroke or transient ischemic attack (TIA) are managed according to standard of care. Routine clinical, imaging, laboratory, ECG and patient-reported data are collected, pseudonymised, stored on a dedicated server at each hospital and harmonised to the OMOP Common Data Model.\n\nThe harmonised data form a federated real-world data platform (U-Platform). On this platform, artificial intelligence (AI) models are trained and validated through federated learning, so that no patient data leave the participating sites. The models aim to predict short- and long-term outcomes, reduce time to treatment, and support diagnosis, triage, discharge, follow-up and secondary prevention. Five clinical sub-studies address pre-hospital triage, fast track to reperfusion, emergent intracerebral hemorrhage (ICH) management, TIA/minor stroke, and cardiac evaluation with blood biomarkers.\n\nThe study is observational. The outputs of the AI models are used for research only and will not influence clinical decisions. Parti",
+   "siti": [
+    {
+     "nome": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": "Pietro Caliandro"
+    }
+   ],
+   "placebo": null,
+   "titolo_it": "Studio osservazionale su persone con ictus",
+   "sintesi_it": "Studio osservazionale su persone con ictus: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 10000 partecipanti.",
    "intervento_it": null,
    "cosa_comporta_it": null,
    "testo_generato": "regole"
