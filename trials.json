@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-10T10:59+00:00",
+ "generato_il": "2026-11-11T10:41+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -1690,7 +1690,7 @@
     "Placebo",
     "Pembrolizumab"
    ],
-   "aggiornato_registro": "2026-10-26",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "This is a study evaluating the efficacy and safety of calderasib with pembrolizumab as first-line treatment in participants with locally advanced or metastatic non-small cell lung cancer (NSCLC) with identified Kirsten rat sarcoma viral oncogene homolog G12C (KRAS G12C) mutation and programmed cell death ligand 1 (PD-L1) tumor proportion score (TPS) ≥50%. There is one primary study hypothesis:\n\nCombination of calderasib and pembrolizumab is superior to placebo plus pembrolizumab with respect to progression free survival (PFS) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by blinded independent central review (BICR).",
    "siti": [
     {
@@ -3617,7 +3617,7 @@
     "Gemcitabine",
     "Carboplatin"
    ],
-   "aggiornato_registro": "2026-10-13",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "Researchers want to know if sacituzumab tirumotecan given alone or with pembrolizumab can treat triple negative breast cancer (TNBC). The main goal of this study is to learn if people treated with sacituzumab tirumotecan alone or with pembrolizumab live longer overall or without the cancer growing or spreading compared to people treated with chemotherapy.",
    "siti": [
     {
@@ -4309,7 +4309,7 @@
     "Sacituzumab Tirumotecan",
     "Cisplatin"
    ],
-   "aggiornato_registro": "2026-10-13",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "Researchers are looking for new ways to treat people with proficient mismatch repair (pMMR) endometrial cancer (EC) that is advanced or recurrent.\n\n* EC is a type of cancer that starts in the tissues inside the uterus (womb)\n* pMMR indicates that certain normal proteins are present in the cancer cells\n* Advanced means the cancer has spread locally or to other parts of the body (metastatic) and cannot be removed with surgery\n* Recurrent means the cancer came back after surgery\n\nSacituzumab tirumotecan (also known as sac-TMT) and pembrolizumab are the study medicines. Sac-TMT is an antibody drug conjugate (ADC). An ADC attaches to specific targets on cancer cells and delivers treatment to destroy those cells.\n\nThe goal of this study is to learn if people who receive sac-TMT with pembrolizumab live longer and without the cancer getting worse compared to people who receive pembrolizumab alone.",
    "siti": [
     {
@@ -4419,73 +4419,6 @@
    "testo_generato": "regole"
   },
   {
-   "id": "NCT06961006",
-   "id_secondari": [
-    "2023-504923-20-00"
-   ],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT06961006",
-   "titolo_originale": "A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012)",
-   "macrogruppi": [
-    "parkinson",
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "Malignant Melanoma"
-   ],
-   "tipo": "interventistico",
-   "fase": "Fase 2",
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": null,
-   "sponsor": "Merck Sharp & Dohme LLC",
-   "interventi": [
-    "Intismeran autogene",
-    "Pembrolizumab",
-    "Placebo"
-   ],
-   "aggiornato_registro": "2026-09-28",
-   "descrizione_originale": "Researchers want to learn if intismeran autogene with pembrolizumab can stop advanced melanoma from growing or spreading. Melanoma is a type of skin cancer. Advanced means the cancer has spread to other parts of the body and cannot be removed with surgery. A standard (or usual) treatment for advanced melanoma is immunotherapy. Immunotherapy is a treatment that helps the immune system fight cancer. Intismeran autogene is a study treatment designed to help a person's immune system attack their specific cancer. Pembrolizumab is an immunotherapy.\n\nThe goal of this study is to learn if people who receive intismeran autogene with pembrolizumab live longer without the cancer growing or spreading than people who receive placebo with pembrolizumab. A placebo looks like the study treatment but has no study treatment in it. Using a placebo helps researchers better understand the effects of a study treatment.",
-   "siti": [
-    {
-     "nome": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS - Università Cattolica del Sacro Cuore ( Site 3023)",
-     "citta": "Roma",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": {
-      "nome": "Study Coordinator",
-      "ruolo": "Referente dello studio",
-      "telefono": "+390630155202",
-      "email": null,
-      "origine": "registro"
-     },
-     "responsabile": null
-    },
-    {
-     "nome": "Fondazione IRCCS Istituto Nazionale dei Tumori di Milano ( Site 3021)",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Study Coordinator",
-      "ruolo": "Referente dello studio",
-      "telefono": "0223902557",
-      "email": null,
-      "origine": "registro"
-     },
-     "responsabile": null
-    }
-   ],
-   "placebo": true,
-   "titolo_it": "Farmaco biologico per malattia di Parkinson: Intismeran autogene",
-   "sintesi_it": "Studio di fase 2 che valuta un farmaco biologico (Intismeran autogene) in persone con malattia di Parkinson. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 160 partecipanti.",
-   "intervento_it": "Farmaco biologico (Intismeran autogene)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
    "id": "NCT06966700",
    "id_secondari": [
     "2024-520190-12-00"
@@ -4522,7 +4455,7 @@
     "Capecitabine",
     "Olaparib"
    ],
-   "aggiornato_registro": "2026-10-13",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "Researchers are looking for new ways to treat types of breast cancer that are both:\n\n* High-risk, which means the cancer may have a higher chance of getting worse or coming back after treatment\n* Early-stage, which means the cancer is in the breast or the lymph nodes around the breast The 2 types of breast cancer in this study are triple-negative breast cancer (TNBC) and hormone receptor (HR)-low positive/human epidermal growth factor receptor-2 (HER2) negative breast cancer. These cancers have zero or a low amount of a protein called HER2 and other proteins that attach to the hormones estrogen or progesterone.\n\nSacituzumab tirumotecan (also known as sac-TMT or MK-2870), the study medicine, is a type of targeted therapy. A targeted therapy is a treatment that works to control how specific types of cancer cells grow and spread.\n\nThe main goals of this study are to learn if people who receive sac-TMT, pembrolizumab, and chemotherapy:\n\n* Have fewer cancer cells found in the tumors and lymph nodes removed during surgery compared to those who receive only pembrolizumab and chemotherapy\n* Live longer without the cancer growing, spreading, or coming back compared to people who receive only pembrolizumab with chemotherapy",
    "siti": [
     {
@@ -9079,7 +9012,7 @@
    "interventi": [
     "KarXT, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "09/11/2026",
+   "aggiornato_registro": "10/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -12867,9 +12800,9 @@
    "eta_max": null,
    "sponsor": "Washington University School Of Medicine",
    "interventi": [
-    "Remternetug, PiB, Placebo to match LY3372993"
+    "Placebo to match LY3372993, Remternetug, PiB"
    ],
-   "aggiornato_registro": "13/10/2026",
+   "aggiornato_registro": "10/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13464,64 +13397,6 @@
      "nome": "Centro non specificato",
      "citta": "Pisa",
      "regione": "Toscana",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": null,
-   "titolo_it": "Farmaco per demenza o declino cognitivo",
-   "sintesi_it": "Studio di therapeutic confirmatory  (phase iii) che valuta un farmaco in persone con demenza o declino cognitivo.",
-   "intervento_it": "Farmaco",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "2025-520746-30-00",
-   "id_secondari": [],
-   "fonti": [
-    "CTIS"
-   ],
-   "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en&EUCT=2025-520746-30-00",
-   "titolo_originale": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of KarXT + KarX-EC for the Treatment of Cognitive Impairment Associated with Mild to Moderate Alzheimer’s Disease (MINDSET 1)",
-   "macrogruppi": [
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "Mild to moderate Alzheimer’s Disease"
-   ],
-   "tipo": "interventistico",
-   "fase": "Therapeutic confirmatory  (Phase III)",
-   "stato": "In corso (autorizzato UE)",
-   "eta_min": null,
-   "eta_max": null,
-   "sponsor": "Bristol-Myers Squibb Services Unlimited Company",
-   "interventi": [
-    "KarX-EC, KarX-EC, KarX-EC, KarXT, KarX-EC, KarXT, KarX-EC matching placebo, KarXT, KarXT matching placebo, KarXT"
-   ],
-   "aggiornato_registro": "01/10/2026",
-   "descrizione_originale": null,
-   "siti": [
-    {
-     "nome": "Centro non specificato",
-     "citta": "Brescia",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Centro non specificato",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Centro non specificato",
-     "citta": "Monza",
-     "regione": "Lombardia",
      "partner": false,
      "contatto": null,
      "responsabile": null
@@ -14221,7 +14096,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "09/11/2026",
+   "aggiornato_registro": "10/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14236,6 +14111,14 @@
      "nome": "Centro non specificato",
      "citta": "Milan",
      "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Centro non specificato",
+     "citta": "Florence",
+     "regione": "Toscana",
      "partner": false,
      "contatto": null,
      "responsabile": null
@@ -16958,7 +16841,7 @@
     "AI",
     "healthy dialogue"
    ],
-   "aggiornato_registro": "2026-08-28",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "The goal of this clinical trial is to obtain initial feedback on the implementation of the STRATIF-AI platform and digital twin in the secondary prevention phase in patients with stroke, Moyamoya disease and Cerebral amyloid angiopathy, including adults of both sexes.\n\nThe main questions it aims to answer is: how is the patients' experience regarding the use of the STRATIF-AI platform? Researchers will compare Arm 1, who use the STRATIF-AI app in addition to standard secondary prevention, against Arm 2, who receive standard secondary prevention only, to collect feedback regarding the platform usability.\n\nParticipants in the Arm 1 will:\n\n* Complete cognitive and psychological assessments at the time of the first visit and after six months\n* Follow the indications received from the clinician for standard secondary prevention\n* Use the STRATIF-AI app daily for health management\n* Optionally, purchase wearable devices that connect to the app.\n* Participate in interviews at the six-month mark to share their experiences with the app.\n\nPatients in the Arm 2 will:\n\n* Complete cognitive and psychological assessments at the time of the first visit and after six months\n* Follow the indications received from the clinician for standard secondary prevention",
    "siti": [
     {
@@ -19333,7 +19216,7 @@
     "Sacituzumab tirumotecan (sac-TMT)",
     "Rescue medication"
    ],
-   "aggiornato_registro": "2026-09-02",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "Researchers want to learn if using a study medicine called MK-1084 can help treat Non-Small Cell Lung Cancer (NSCLC). MK-1084 is a type of treatment called targeted therapy for the Kirsten rat sarcoma viral oncogene homolog (KRAS) G12C gene change. The goal of this study is to learn about the safety of MK-1084 and to learn how many people have the cancer get smaller or go away during the study treatment.",
    "siti": [
     {
@@ -20415,7 +20298,7 @@
     "Structured Physical Exercise",
     "Management of Modifiable Vascular and Behavioral Risk Factors"
    ],
-   "aggiornato_registro": "2026-06-17",
+   "aggiornato_registro": "2026-11-10",
    "descrizione_originale": "AHEAD is a prospective, longitudinal, risk-stratified single-arm interventional study enrolling 300 patients with Subjective Cognitive Decline (SCD) at IRCCS San Raffaele Hospital, Milan, Italy.\n\nThe study uses artificial intelligence (AI) to integrate multimodal data - including MRI, EEG, Optical Coherence Tomography (OCT), neuropsychological assessments, and plasma biomarkers - to identify individuals with underlying Alzheimer's disease (AD) biology and predict cognitive progression.\n\nOnly participants found to be AD plasma biomarker positive (SCD+) undergo longitudinal follow-up at 12 and 24 months. Participants classified as high risk additionally receive a 6-month personalized multidisciplinary intervention combining high-frequency transcranial magnetic stimulation (TMS), digital cognitive training, structured physical exercise, and targeted management of modifiable vascular and behavioral risk factors.",
    "siti": [
     {
