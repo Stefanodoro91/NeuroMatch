@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-11T10:41+00:00",
+ "generato_il": "2026-11-12T10:53+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -9012,7 +9012,7 @@
    "interventi": [
     "KarXT, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "10/11/2026",
+   "aggiornato_registro": "11/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -9034,14 +9034,6 @@
     {
      "nome": "Centro non specificato",
      "citta": "Brescia",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Centro non specificato",
-     "citta": "Milan",
      "regione": "Lombardia",
      "partner": false,
      "contatto": null,
@@ -12303,7 +12295,7 @@
     "parkinson"
    ],
    "condizioni": [
-    "Parkinson's disease, Early Parkinson Disease, Parkinson Disease, Idiopathic, Idiopathic Parkinson Disease, Parkinson"
+    "Early Parkinson Disease, Idiopathic Parkinson Disease, Parkinson Disease, Idiopathic, Parkinson, Parkinson's disease"
    ],
    "tipo": "interventistico",
    "fase": "Therapeutic exploratory (Phase II)",
@@ -12312,9 +12304,9 @@
    "eta_max": null,
    "sponsor": "Neuron23 Inc.",
    "interventi": [
-    "NEU-411, Placebo NEU-411 maleate"
+    "Placebo NEU-411 maleate, NEU-411"
    ],
-   "aggiornato_registro": "05/11/2026",
+   "aggiornato_registro": "11/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14096,7 +14088,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "10/11/2026",
+   "aggiornato_registro": "11/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
