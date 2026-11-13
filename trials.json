@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-12T10:53+00:00",
+ "generato_il": "2026-11-13T10:50+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -1690,7 +1690,7 @@
     "Placebo",
     "Pembrolizumab"
    ],
-   "aggiornato_registro": "2026-11-10",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "This is a study evaluating the efficacy and safety of calderasib with pembrolizumab as first-line treatment in participants with locally advanced or metastatic non-small cell lung cancer (NSCLC) with identified Kirsten rat sarcoma viral oncogene homolog G12C (KRAS G12C) mutation and programmed cell death ligand 1 (PD-L1) tumor proportion score (TPS) ≥50%. There is one primary study hypothesis:\n\nCombination of calderasib and pembrolizumab is superior to placebo plus pembrolizumab with respect to progression free survival (PFS) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by blinded independent central review (BICR).",
    "siti": [
     {
@@ -9012,7 +9012,7 @@
    "interventi": [
     "KarXT, KarXT, KarXT, KarXT, KarXT"
    ],
-   "aggiornato_registro": "11/11/2026",
+   "aggiornato_registro": "12/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13358,7 +13358,7 @@
    "interventi": [
     "KarX-EC, KarX-EC, KarX-EC, KarXT, KarXT, KarXT, KarXT matching placebo, KarX-EC, KarXT, KarX-EC matching Placebo"
    ],
-   "aggiornato_registro": "27/10/2026",
+   "aggiornato_registro": "12/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14088,7 +14088,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "11/11/2026",
+   "aggiornato_registro": "12/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14486,7 +14486,7 @@
    "interventi": [
     "Deep Brain Stimulation (DBS)"
    ],
-   "aggiornato_registro": "2026-10-13",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "The purpose of this registry is to compile characteristics of world-wide outcomes for the use of Boston Scientific's commercially available Vercise DBS System in the treatment of Parkinson's disease.\n\nThe utilization of Image Guided Programming (IGP), and other commercially available programming features, used as planning tools for the programming of patients with Boston Scientific's Vercise DBS System are also evaluated.\n\nAdditionally, the utilization of the DBS Illumina 3D feature that may be used for the programming of patients with Boston Scientific's Vercise DBS Systems is also evaluated.",
    "siti": [
     {
@@ -14714,7 +14714,7 @@
    "interventi": [
     "Deep Brain Stimulation"
    ],
-   "aggiornato_registro": "2026-10-07",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "The primary objective of this study is to characterize real-world clinical outcomes of Deep Brain Stimulation (DBS) using retrospective review of de-identified patient records.",
    "siti": [
     {
@@ -15649,7 +15649,7 @@
    "interventi": [
     "KarXT"
    ],
-   "aggiornato_registro": "2026-10-16",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "This is a Phase 3 global, multicenter, 52-week, open-label extension (OLE) rollover study for subjects completing study CN012-0026, CN012-0027 or CN012-0056. Subjects (randomized or non-randomized) who complete the 38-week CN012-0026 study, 14-week CN012-0027 study or 14-week CN012-0056 study will be eligible to enroll in CN012-0028. The primary objective of the study is to assess the long-term safety and tolerability of KarXT in subjects with psychosis associated with Alzheimer's Disease.",
    "siti": [
     {
@@ -17546,7 +17546,7 @@
     "ML-007C-MA",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-09-30",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "ML-007C-MA-221 is a Phase 2, randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of ML-007C-MA in male and female participants aged 55 to 90 years with hallucinations and delusions associated with Alzheimer's Disease Psychosis (ADP).\n\nThe primary objective is to evaluate the efficacy of ML-007C-MA compared with placebo for the treatment of hallucinations and delusions associated with ADP as measured by the Neuropsychiatric Inventory-Clinician (NPI-C): Hallucinations and Delusions (H+D) score.",
    "siti": [
     {
@@ -17688,7 +17688,7 @@
     "KarXT",
     "KarX-EC"
    ],
-   "aggiornato_registro": "2026-10-16",
+   "aggiornato_registro": "2026-11-12",
    "descrizione_originale": "The purpose of this study is to evaluate the long-term efficacy and safety of combined formulation of xanomeline tartrate/trospium chloride in an immediate release (IR) capsule (KarXT) and xanomeline enteric capsules (KarX-EC) in participants with agitation associated with Alzheimer's Disease who completed the parent studies CN012-0023 or CN012-0024.",
    "siti": [
     {
