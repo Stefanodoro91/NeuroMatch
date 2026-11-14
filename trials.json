@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-13T10:50+00:00",
+ "generato_il": "2026-11-14T10:05+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -2155,7 +2155,7 @@
     "Oxaliplatin",
     "Patritumab Deruxtecan"
    ],
-   "aggiornato_registro": "2026-10-07",
+   "aggiornato_registro": "2026-11-13",
    "descrizione_originale": "This is a phase 1/2, multicenter, open-label umbrella platform study that will evaluate the safety and tolerability of investigational agents with pembrolizumab and fluoropyrimidine chemotherapy for the first-line (1L) treatment of participants with locally advanced unresectable or metastatic human epidermal growth factor receptor 2 (HER2)-negative gastric, gastroesophageal junction, or esophageal adenocarcinoma.\n\nThis substudy will have two phases: a safety lead-in phase and an efficacy phase. The safety lead-in phase will be used to evaluate the safety and tolerability, and to establish a recommended Phase 2 dose (RP2D) for investigational agents in combination with chemotherapy and immunotherapy. There is no formal hypothesis in this study.",
    "siti": [
     {
@@ -9152,7 +9152,7 @@
    "interventi": [
     "Matched placebo for product, Frexalimab"
    ],
-   "aggiornato_registro": "04/09/2026",
+   "aggiornato_registro": "13/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14088,7 +14088,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "12/11/2026",
+   "aggiornato_registro": "13/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14318,9 +14318,9 @@
    "eta_max": null,
    "sponsor": "F. Hoffmann-La Roche AG",
    "interventi": [
-    "RO7568282, Placebo RO7568282, RO7568282, RO7568282, RO7568282"
+    "RO7568282, RO7568282, Placebo RO7568282, RO7568282, RO7568282"
    ],
-   "aggiornato_registro": "03/11/2026",
+   "aggiornato_registro": "13/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -15521,7 +15521,7 @@
    "interventi": [
     "cognitive training"
    ],
-   "aggiornato_registro": "2025-05-08",
+   "aggiornato_registro": "2026-11-13",
    "descrizione_originale": "Subjective cognitive decline-SCD is a subclinical cognitive impairment subjectively experienced without being detectable from a diagnostic and neuropsychological perspective. It can negatively impact on patient's frailty and quality of life and it may be prodromal to severe cognitive impairment. Currently, only a few screening tools focusing mainly on memory complaints exist.\n\nThe aim of this study is to analyze if a new screening tool called MASCoD (Multidimensional Assessment of Subjective Cognitive Decline) can detect and monitor the SCD, predicting the risk of developing severe cognitive decline over time.\n\nSpecifically, the investigators have the following aims:\n\nprimary objectives:\n\n1. To assess the construct validity and tune the clinical cutoffs of the new instrument through the correlation of MASCoD scores with neuropsychological evaluation and brain 18F-FDG-PET.\n2. To assess the clinical validity (predictive capability) of the new instrument through a classification model (dependent variable: brain 18F-FDG-PET examination; independent variable: MASCoD; control variables: gender, age and neuropsychological evaluation).\n\nSecondary objective:\n\nTo evaluate the suitability of MASCoD as tool for the monitoring of patients over time. Specifically, the investigators want to evaluate if the MASCoD score is able to assess the effects of a cognitive treatment and, in turn, to identify outpatients who most likely will benefit from it.\n\nAfter the multidimensional evaluation at T",
    "siti": [
     {
@@ -18850,7 +18850,7 @@
     "Prednisone/Prednisolone",
     "Androgen Deprivation Therapy (ADT)"
    ],
-   "aggiornato_registro": "2026-09-29",
+   "aggiornato_registro": "2026-11-13",
    "descrizione_originale": "The purpose of this study is to evaluate the safety, tolerability, and efficacy of two different treatment combinations of tulmimetostat in participants with de novo or recurrent metastatic hormone-sensitive prostate cancer (mHSPC). Phase I aims to determine the recommended dose(s) for expansion (RDE) of tulmimetostat in combination with darolutamide or abiraterone. Phase II is designed to further evaluate the efficacy and safety of tulmimetostat in combination with darolutamide compared with darolutamide alone in participants with mHSPC.",
    "siti": [
     {
