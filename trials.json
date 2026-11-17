@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-16T10:57+00:00",
+ "generato_il": "2026-11-17T11:42+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -14088,7 +14088,7 @@
    "interventi": [
     "Orelabrutinib, Placebo tablets match with that of orelabrutinib (ICP-022) tablets in appearance, shape, size, and weight."
    ],
-   "aggiornato_registro": "13/11/2026",
+   "aggiornato_registro": "16/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -18153,7 +18153,7 @@
     "Paclitaxel",
     "Docetaxel"
    ],
-   "aggiornato_registro": "2026-10-13",
+   "aggiornato_registro": "2026-11-16",
    "descrizione_originale": "DESTINY-Endometrial01 will investigate the efficacy of first-line T-DXd + rilvegostomig (Arm A) and/or T-DXd+ pembrolizumab (Arm B) when compared to chemotherapy (carboplatin + paclitaxel) + pembrolizumab (Arm C), by assessment of progression free survival (PFS), as assessed by BICR, in participants with HER2-expressing (IHC 3+/2+), pMMR, primary advanced (Stage III/IV) or recurrent EC.",
    "siti": [
     {
@@ -18818,6 +18818,88 @@
    "titolo_it": "Farmaco per malattia di Parkinson: Prasinezumab",
    "sintesi_it": "Studio di fase 3 che valuta un farmaco (Prasinezumab) in persone con malattia di Parkinson. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 900 partecipanti.",
    "intervento_it": "Farmaco (Prasinezumab)",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "NCT07177352",
+   "id_secondari": [],
+   "fonti": [
+    "ClinicalTrials.gov"
+   ],
+   "url": "https://clinicaltrials.gov/study/NCT07177352",
+   "titolo_originale": "Screening Study to Determine Individuals With Potential Trial Eligibility for Alzheimer's Disease Studies",
+   "macrogruppi": [
+    "invecchiamento"
+   ],
+   "condizioni": [
+    "Alzheimers Disease"
+   ],
+   "tipo": "interventistico",
+   "fase": "Fase 3",
+   "stato": "In reclutamento",
+   "eta_min": 50.0,
+   "eta_max": 90.0,
+   "sponsor": "Hoffmann-La Roche",
+   "interventi": [
+    "No Intervention"
+   ],
+   "aggiornato_registro": "2026-11-16",
+   "descrizione_originale": "This study is a pre-screening process used to assess participants' potential eligibility for Roche interventional Alzheimer's disease studies.",
+   "siti": [
+    {
+     "nome": "Policlinico Universitario Agostino Gemelli",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Fondazione Santa Lucia IRCCS",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Umberto I Policlinico di Roma-Università di Roma La Sapienza",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Ospedale Isola Tiberina - Gemelli Isola",
+     "citta": "Rome",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "Asst Degli Spedali Civili Di Brescia",
+     "citta": "Brescia",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    },
+    {
+     "nome": "IRCCS Ospedale San Raffaele",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": null,
+     "responsabile": null
+    }
+   ],
+   "placebo": false,
+   "titolo_it": "Intervento per demenza o declino cognitivo: No Intervention",
+   "sintesi_it": "Studio di fase 3 che valuta un intervento (No Intervention) in persone con demenza o declino cognitivo. In totale lo studio prevede circa 80000 partecipanti.",
+   "intervento_it": "Intervento (No Intervention)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
