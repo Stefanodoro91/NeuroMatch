@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-18T11:29+00:00",
+ "generato_il": "2026-11-19T11:27+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -5655,6 +5655,85 @@
    "titolo_it": "Dispositivo medico per demenza o declino cognitivo: RICORDO",
    "sintesi_it": "Studio che valuta un dispositivo medico (RICORDO) in persone con demenza o declino cognitivo. I partecipanti sono assegnati a caso a gruppi diversi. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 100 partecipanti.",
    "intervento_it": "Dispositivo medico (RICORDO)",
+   "cosa_comporta_it": null,
+   "testo_generato": "regole"
+  },
+  {
+   "id": "NCT07287982",
+   "id_secondari": [
+    "2025-523496-32-00"
+   ],
+   "fonti": [
+    "ClinicalTrials.gov"
+   ],
+   "url": "https://clinicaltrials.gov/study/NCT07287982",
+   "titolo_originale": "A Study to Assess the Safety, Tolerability, Efficacy, Pharmacokinetics, and Immunogenicity of Intravenous Administration of ARGX-119 in Pediatric Participants Aged 5 to Less Than 18 Years With Spinal Muscular Atrophy",
+   "macrogruppi": [
+    "sla"
+   ],
+   "condizioni": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "tipo": "interventistico",
+   "fase": "Fase 2",
+   "stato": "In reclutamento",
+   "eta_min": 5.0,
+   "eta_max": 17.0,
+   "sponsor": "argenx",
+   "interventi": [
+    "ARGX-119 IV",
+    "Placebo IV"
+   ],
+   "aggiornato_registro": "2026-11-18",
+   "descrizione_originale": "This study aims to find the correct dose of ARGX-119 for children with SMA. The study will also look at how safe the study drug is, how well it works, how it moves through the body, and how the immune system responds to it. The study consists of a double-blinded treatment period (DBTP) where participants will either receive ARGX-119 IV or placebo IV, in addition to disease-modifying therapy (DMT) for 24 weeks. Participants who complete the DBTP will enter the open-label active-treatment extension period (ATEP) during which all participants will receive ARGX-119 IV up to 100 weeks (approximately 2 years).",
+   "siti": [
+    {
+     "nome": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+     "citta": "Roma",
+     "regione": "Lazio",
+     "partner": false,
+     "contatto": {
+      "nome": "Eugenio Mercuri",
+      "ruolo": "Referente dello studio",
+      "telefono": "+39630155586",
+      "email": "mercuri.trial@policlinicogemelli.it",
+      "origine": "registro"
+     },
+     "responsabile": "Eugenio Mercuri"
+    },
+    {
+     "nome": "Fondazione Serena Onlus - Centro Clinico Nemo",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Emilio Albamonte",
+      "ruolo": "Referente dello studio",
+      "telefono": "+3929143371",
+      "email": "emilio.albamonte@centrocliniconemo.it",
+      "origine": "registro"
+     },
+     "responsabile": "Emilio Albamonte"
+    },
+    {
+     "nome": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Riccardo Masson",
+      "ruolo": "Referente dello studio",
+      "telefono": "+39223942371",
+      "email": "riccardo.masson@istituto-besta.it",
+      "origine": "registro"
+     },
+     "responsabile": "Riccardo Masson"
+    }
+   ],
+   "placebo": true,
+   "titolo_it": "Farmaco biologico per SLA: ARGX-119 IV",
+   "sintesi_it": "Studio di fase 2 che valuta un farmaco biologico (ARGX-119 IV) in persone con SLA. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 60 partecipanti.",
+   "intervento_it": "Farmaco biologico (ARGX-119 IV)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
