@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-25T12:33+00:00",
+ "generato_il": "2026-11-26T12:12+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -5047,7 +5047,7 @@
    ],
    "tipo": "interventistico",
    "fase": null,
-   "stato": "Reclutamento in apertura",
+   "stato": "In reclutamento",
    "eta_min": 35.0,
    "eta_max": 80.0,
    "sponsor": "IRCCS San Raffaele Roma",
@@ -5056,7 +5056,7 @@
     "Intensive Physical Activity Intervention",
     "Control"
    ],
-   "aggiornato_registro": "2026-07-30",
+   "aggiornato_registro": "2026-11-25",
    "descrizione_originale": "This 2x2 factorial, randomized, controlled pilot study aims to identify a specific microbiota pattern, which could constitute a biomarker of Parkinson's disease, and to evaluate whether specific pathotypes can be associated with different stages of the disease; furthermore, the investigators are committed to evaluating how and to what extent the changes induced by a personalized nutritional intervention combined with physical exercise affect the symptoms and quality of life of patients.",
    "siti": [
     {
@@ -5741,62 +5741,6 @@
    "titolo_it": "Studio osservazionale su persone con ictus",
    "sintesi_it": "Studio osservazionale su persone con ictus: raccoglie dati nel tempo (visite, esami, questionari) e non prevede trattamenti sperimentali. In totale lo studio prevede circa 15 partecipanti.",
    "intervento_it": null,
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT07316413",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT07316413",
-   "titolo_originale": "Repetitive Transcranial Magnetic Stimulation in Frontotemporal Lobar Degeneration",
-   "macrogruppi": [
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "FTLD",
-    "FTD",
-    "bvFTD",
-    "PPA",
-    "PSP",
-    "Cortical Basal Syndrome (CBS)",
-    "rTMS",
-    "Theta Burst Stimulation"
-   ],
-   "tipo": "interventistico",
-   "fase": null,
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": null,
-   "sponsor": "Università degli Studi di Brescia",
-   "interventi": [
-    "Theta burst stimulation",
-    "Sham Theta burst stimulation"
-   ],
-   "aggiornato_registro": "2026-01-05",
-   "descrizione_originale": "The aim of the study is to evaluate the safety, feasibility, clinical and biological efficacy, and predictors of efficacy of an intervention consisting of repetitive transcranial magnetic stimulation (rTMS) in patients with frontotemporal dementia (FTLD) or in asymptomatic persons at risk of FTLD (i.e., persons familiar with FTLD patients).\n\nrTMS is a non-invasive brain stimulation technique, and has demonstrated the ability to modulate neuronal activity by applying high-frequency magnetic fields to the surface of the skull. rTMS offers a potentially effective means to influence neural networks involved in the pathogenesis of neurodegenerative diseases, with benefits that could extend beyond symptomatic relief. Its safety has been widely documented in a variety of clinical conditions, making it an ideal candidate for application in neurodegenerative diseases.\n\nIn the present study, participants will undergo the following procedures: (i) clinical and neuropsychological assessment, (ii) TMS, and (iii) blood sampling. The occurrence of adverse events will be monitored throughout the duration of the study.\n\nThe study is structured in two phases. In the first phase, double-blind, randomised and placebo-controlled, participants will be randomised into two groups: group 1, participants will receive real rTMS for 2 weeks; and group 2, placebo rTMS for 2 weeks. In the second, open-label phase, after 10 weeks, both group 1 and group 2 participants will receive real rTMS for 2 weeks. Ea",
-   "siti": [
-    {
-     "nome": "IRCCS Istituto Centro San Giovanni Di Dio - Fatebenefratelli Brescia",
-     "citta": "Brescia",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Barbara Borroni, MD",
-      "ruolo": "Referente dello studio",
-      "telefono": "+39 03035358",
-      "email": "bborroni@fatebenefratelli.eu",
-      "origine": "registro"
-     },
-     "responsabile": "Barbara Borroni, MD"
-    }
-   ],
-   "placebo": true,
-   "titolo_it": "Dispositivo medico per demenza o declino cognitivo: Theta burst stimulation",
-   "sintesi_it": "Studio che valuta un dispositivo medico (Theta burst stimulation) in persone con demenza o declino cognitivo. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve una procedura simulata, senza effetto. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 120 partecipanti.",
-   "intervento_it": "Dispositivo medico (Theta burst stimulation)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
@@ -10707,9 +10651,9 @@
    "eta_max": null,
    "sponsor": "Novartis Pharma AG",
    "interventi": [
-    "OCRELIZUMAB, LOU064, OCRELIZUMAB"
+    "OCRELIZUMAB, OCRELIZUMAB, LOU064"
    ],
-   "aggiornato_registro": "17/04/2026",
+   "aggiornato_registro": "25/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -18749,88 +18693,6 @@
    "titolo_it": "Farmaco per malattia di Parkinson: Prasinezumab",
    "sintesi_it": "Studio di fase 3 che valuta un farmaco (Prasinezumab) in persone con malattia di Parkinson. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 900 partecipanti.",
    "intervento_it": "Farmaco (Prasinezumab)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT07177352",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT07177352",
-   "titolo_originale": "Screening Study to Determine Individuals With Potential Trial Eligibility for Alzheimer's Disease Studies",
-   "macrogruppi": [
-    "invecchiamento"
-   ],
-   "condizioni": [
-    "Alzheimers Disease"
-   ],
-   "tipo": "interventistico",
-   "fase": "Fase 3",
-   "stato": "In reclutamento",
-   "eta_min": 50.0,
-   "eta_max": 90.0,
-   "sponsor": "Hoffmann-La Roche",
-   "interventi": [
-    "No Intervention"
-   ],
-   "aggiornato_registro": "2026-11-16",
-   "descrizione_originale": "This study is a pre-screening process used to assess participants' potential eligibility for Roche interventional Alzheimer's disease studies.",
-   "siti": [
-    {
-     "nome": "Policlinico Universitario Agostino Gemelli",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Fondazione Santa Lucia IRCCS",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Umberto I Policlinico di Roma-Università di Roma La Sapienza",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Ospedale Isola Tiberina - Gemelli Isola",
-     "citta": "Rome",
-     "regione": "Lazio",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "Asst Degli Spedali Civili Di Brescia",
-     "citta": "Brescia",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    },
-    {
-     "nome": "IRCCS Ospedale San Raffaele",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": null,
-     "responsabile": null
-    }
-   ],
-   "placebo": false,
-   "titolo_it": "Intervento per demenza o declino cognitivo: No Intervention",
-   "sintesi_it": "Studio di fase 3 che valuta un intervento (No Intervention) in persone con demenza o declino cognitivo. In totale lo studio prevede circa 80000 partecipanti.",
-   "intervento_it": "Intervento (No Intervention)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
