@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-26T12:12+00:00",
+ "generato_il": "2026-11-27T12:01+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -8423,9 +8423,9 @@
    "eta_max": null,
    "sponsor": "F. Hoffmann-La Roche AG",
    "interventi": [
-    "Fenebrutinib, AUBAGIO 14 mg film-coated tablets, Aubagio Placebo, Fenebrutinib Placebo, Fenebrutinib"
+    "Aubagio Placebo, Fenebrutinib, AUBAGIO 14 mg film-coated tablets, Fenebrutinib, Fenebrutinib Placebo"
    ],
-   "aggiornato_registro": "07/07/2026",
+   "aggiornato_registro": "26/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -10653,7 +10653,7 @@
    "interventi": [
     "OCRELIZUMAB, OCRELIZUMAB, LOU064"
    ],
-   "aggiornato_registro": "25/11/2026",
+   "aggiornato_registro": "26/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13167,7 +13167,7 @@
    "interventi": [
     "KarX-EC, KarXT, KarXT, KarX-EC, KarXT, KarXT, KarX-EC, KarX-EC"
    ],
-   "aggiornato_registro": "23/11/2026",
+   "aggiornato_registro": "26/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -13231,9 +13231,9 @@
    "eta_max": null,
    "sponsor": "Bristol-Myers Squibb Services Unlimited Company",
    "interventi": [
-    "KarX-EC, KarX-EC, KarX-EC, KarXT, KarXT, KarXT, KarXT matching placebo, KarX-EC, KarXT, KarX-EC matching Placebo"
+    "KarX-EC, KarXT, KarXT matching placebo, KarXT, KarX-EC, KarX-EC matching Placebo, KarX-EC, KarXT, KarXT, KarX-EC"
    ],
-   "aggiornato_registro": "12/11/2026",
+   "aggiornato_registro": "26/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
