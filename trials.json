@@ -1,5 +1,5 @@
 {
- "generato_il": "2026-11-27T12:01+00:00",
+ "generato_il": "2026-11-28T11:37+00:00",
  "dimostrativo": false,
  "fonti": [
   "ClinicalTrials.gov",
@@ -3557,7 +3557,7 @@
     "Gemcitabine",
     "Carboplatin"
    ],
-   "aggiornato_registro": "2026-11-23",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "Researchers want to know if sacituzumab tirumotecan given alone or with pembrolizumab can treat triple negative breast cancer (TNBC). The main goal of this study is to learn if people treated with sacituzumab tirumotecan alone or with pembrolizumab live longer overall or without the cancer growing or spreading compared to people treated with chemotherapy.",
    "siti": [
     {
@@ -3911,9 +3911,23 @@
    "interventi": [
     "Deep Brain Stimulation"
    ],
-   "aggiornato_registro": "2026-09-24",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "The goal of this prospective, multi-center, randomized, double-blind, crossover clinical trial is to evaluate the effectiveness and safety of adaptive DBS (aDBS) and conventional DBS (cDBS) delivered through the AlphaDBS system, in levodopa-responsive Parkinson's disease subjects. Data from previous studies conducted in Europe indicate that the use of the AlphaDBS system is safe and effective in both aDBS and cDBS modes. However, such studies suggest that aDBS may lead to more ON-time without troublesome dyskinesias in some patients. The study is designed to first demonstrate safety of effectiveness of cDBS, then to directly compare effectiveness of aDBS relative to cDBS. Subjects enrolled in the study will undergo multiple visits to assess the improvement of PD symptoms and will be randomized to Mode 1 for three months, followed by Mode 2. At the end of Mode 2, subjects will select their preferred mode, which will be maintained for 3 additional months. Subjects will complete patient diaries at different time points to evaluate their symptoms throughout the day.",
    "siti": [
+    {
+     "nome": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+     "citta": "Milan",
+     "regione": "Lombardia",
+     "partner": false,
+     "contatto": {
+      "nome": "Enrico Mailland",
+      "ruolo": "Referente dello studio",
+      "telefono": "0255038671",
+      "email": "enrico.mailland@policlinico.mi.it",
+      "origine": "registro"
+     },
+     "responsabile": null
+    },
     {
      "nome": "IRCCS San Gerardo dei Tintori",
      "citta": "Monza",
@@ -4249,7 +4263,7 @@
     "Sacituzumab Tirumotecan",
     "Cisplatin"
    ],
-   "aggiornato_registro": "2026-11-17",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "Researchers are looking for new ways to treat people with proficient mismatch repair (pMMR) endometrial cancer (EC) that is advanced or recurrent.\n\n* EC is a type of cancer that starts in the tissues inside the uterus (womb)\n* pMMR indicates that certain normal proteins are present in the cancer cells\n* Advanced means the cancer has spread locally or to other parts of the body (metastatic) and cannot be removed with surgery\n* Recurrent means the cancer came back after surgery\n\nSacituzumab tirumotecan (also known as sac-TMT) and pembrolizumab are the study medicines. Sac-TMT is an antibody drug conjugate (ADC). An ADC attaches to specific targets on cancer cells and delivers treatment to destroy those cells.\n\nThe goal of this study is to learn if people who receive sac-TMT with pembrolizumab live longer and without the cancer getting worse compared to people who receive pembrolizumab alone.",
    "siti": [
     {
@@ -4395,7 +4409,7 @@
     "Capecitabine",
     "Olaparib"
    ],
-   "aggiornato_registro": "2026-11-23",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "Researchers are looking for new ways to treat types of breast cancer that are both:\n\n* High-risk, which means the cancer may have a higher chance of getting worse or coming back after treatment\n* Early-stage, which means the cancer is in the breast or the lymph nodes around the breast The 2 types of breast cancer in this study are triple-negative breast cancer (TNBC) and hormone receptor (HR)-low positive/human epidermal growth factor receptor-2 (HER2) negative breast cancer. These cancers have zero or a low amount of a protein called HER2 and other proteins that attach to the hormones estrogen or progesterone.\n\nSacituzumab tirumotecan (also known as sac-TMT or MK-2870), the study medicine, is a type of targeted therapy. A targeted therapy is a treatment that works to control how specific types of cancer cells grow and spread.\n\nThe main goals of this study are to learn if people who receive sac-TMT, pembrolizumab, and chemotherapy:\n\n* Have fewer cancer cells found in the tumors and lymph nodes removed during surgery compared to those who receive only pembrolizumab and chemotherapy\n* Live longer without the cancer growing, spreading, or coming back compared to people who receive only pembrolizumab with chemotherapy",
    "siti": [
     {
@@ -4537,7 +4551,7 @@
     "KarX-EC",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-11-17",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "The purpose of this study is to evaluate the efficacy and safety of KarXT + KarX-EC for cognitive impairment in Alzheimer's Disease",
    "siti": [
     {
@@ -4745,7 +4759,7 @@
     "Xanomeline Enteric Capsule",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-11-03",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "The purpose of this study is to evaluate the efficacy and safety of KarXT + KarX-EC in adult participants with agitation related to Alzheimer's Disease.",
    "siti": [
     {
@@ -4819,70 +4833,6 @@
    "titolo_it": "Farmaco per demenza o declino cognitivo: Xanomeline/Trospium Chloride Capsule",
    "sintesi_it": "Studio di fase 3 che valuta un farmaco (Xanomeline/Trospium Chloride Capsule) in persone con demenza o declino cognitivo. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 426 partecipanti.",
    "intervento_it": "Farmaco (Xanomeline/Trospium Chloride Capsule)",
-   "cosa_comporta_it": null,
-   "testo_generato": "regole"
-  },
-  {
-   "id": "NCT07023835",
-   "id_secondari": [],
-   "fonti": [
-    "ClinicalTrials.gov"
-   ],
-   "url": "https://clinicaltrials.gov/study/NCT07023835",
-   "titolo_originale": "Usnoflast Neuromuscular Investigation for Treatment Efficacy in Amyotrophic Lateral Sclerosis",
-   "macrogruppi": [
-    "sla"
-   ],
-   "condizioni": [
-    "Amyotrophic Lateral Sclerosis (ALS)"
-   ],
-   "tipo": "interventistico",
-   "fase": "Fase 2",
-   "stato": "In reclutamento",
-   "eta_min": 18.0,
-   "eta_max": null,
-   "sponsor": "Zydus Therapeutics Inc.",
-   "interventi": [
-    "50 mg Usnoflast",
-    "75 mg Usnoflast",
-    "Placebo"
-   ],
-   "aggiornato_registro": "2026-09-01",
-   "descrizione_originale": "Usnoflast Neuromuscular Investigation for Treatment Efficacy in Amyotrophic Lateral Sclerosis",
-   "siti": [
-    {
-     "nome": "Zydus 150",
-     "citta": "Brescia",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Chiara Colombi",
-      "ruolo": "Referente dello studio",
-      "telefono": null,
-      "email": "chiara.colombi@centrocliniconemo.it",
-      "origine": "registro"
-     },
-     "responsabile": null
-    },
-    {
-     "nome": "Zydus 153",
-     "citta": "Milan",
-     "regione": "Lombardia",
-     "partner": false,
-     "contatto": {
-      "nome": "Claudia Panciroli",
-      "ruolo": "Referente dello studio",
-      "telefono": null,
-      "email": "panciroli.claudia@hsr.it",
-      "origine": "registro"
-     },
-     "responsabile": null
-    }
-   ],
-   "placebo": true,
-   "titolo_it": "Farmaco per SLA: 50 mg Usnoflast",
-   "sintesi_it": "Studio di fase 2 che valuta un farmaco (50 mg Usnoflast) in persone con SLA. I partecipanti sono assegnati a caso a gruppi diversi. Uno dei gruppi riceve un placebo, cioè un trattamento senza principio attivo. Né i partecipanti né i medici sanno a quale gruppo si appartiene (doppio cieco). In totale lo studio prevede circa 240 partecipanti.",
-   "intervento_it": "Farmaco (50 mg Usnoflast)",
    "cosa_comporta_it": null,
    "testo_generato": "regole"
   },
@@ -5177,7 +5127,7 @@
     "Carboplatin",
     "Rescue Medications"
    ],
-   "aggiornato_registro": "2026-11-23",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "Researchers are looking for new ways to treat metastatic cervical cancer. Cervical cancer is cancer in the cervix, the lower part of the uterus (womb). Metastatic means the cancer has spread to other parts of the body.\n\nResearchers want to learn about giving the study medicine sacituzumab tirumotecan (also called sac-TMT or MK-2870) along with pembrolizumab and bevacizumab treatments. Sac-TMT is an antibody drug conjugate, which is a type of medicine that attaches to specific targets on cancer cells and delivers treatment to destroy those cells.\n\nThe goals of this study are to learn:\n\n* About the safety of sac-TMT with pembrolizumab and bevacizumab, and if people tolerate them when given together, and\n* If people who receive sac-TMT and pembrolizumab, with or without bevacizumab, live longer overall or without their cancer getting worse as compared to those who receive standard treatment",
    "siti": [
     {
@@ -8425,7 +8375,7 @@
    "interventi": [
     "Aubagio Placebo, Fenebrutinib, AUBAGIO 14 mg film-coated tablets, Fenebrutinib, Fenebrutinib Placebo"
    ],
-   "aggiornato_registro": "26/11/2026",
+   "aggiornato_registro": "27/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -10653,7 +10603,7 @@
    "interventi": [
     "OCRELIZUMAB, OCRELIZUMAB, LOU064"
    ],
-   "aggiornato_registro": "26/11/2026",
+   "aggiornato_registro": "27/11/2026",
    "descrizione_originale": null,
    "siti": [
     {
@@ -14804,8 +14754,8 @@
     "KarXT",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-08-17",
-   "descrizione_originale": "This is a Phase 3, 38-week, randomized, double-blind, placebo-controlled, multicenter, outpatient study in subjects with psychosis associated with Alzheimer's Disease.\n\nThe primary objective of the study is to evaluate relapse prevention in subjects with psychosis associated with Alzheimer's Disease treated with KarXT compared to placebo. The secondary objectives of the study are to evaluate the time from randomization to discontinuation for any reason or relapse and safety and tolerability in subjects with psychosis associated with Alzheimer's Disease treated with KarXT compared to placebo.",
+   "aggiornato_registro": "2026-11-27",
+   "descrizione_originale": "This is a Phase 3, 38-week, randomized, double-blind, placebo-controlled, multicenter, outpatient study in subjects with psychosis associated with Alzheimer's Disease. Psychosis includes delusions, paranoid thoughts and hallucinations.\n\nThe study includes a 12-week open-label treatment period and a 26-week double-blind randomized withdrawal treatment period.\n\nThe primary objective of the study is to evaluate relapse prevention in subjects with psychosis associated with Alzheimer's Disease treated with KarXT compared to placebo. The secondary objectives of the study are to evaluate the time from randomization to discontinuation for any reason or relapse and safety and tolerability in subjects with psychosis associated with Alzheimer's Disease treated with KarXT compared to placebo.",
    "siti": [
     {
      "nome": "Fondazione Policlinico Universitario A Gemelli - Rome - PPDS",
@@ -15524,8 +15474,8 @@
    "interventi": [
     "KarXT"
    ],
-   "aggiornato_registro": "2026-11-12",
-   "descrizione_originale": "This is a Phase 3 global, multicenter, 52-week, open-label extension (OLE) rollover study for subjects completing study CN012-0026, CN012-0027 or CN012-0056. Subjects (randomized or non-randomized) who complete the 38-week CN012-0026 study, 14-week CN012-0027 study or 14-week CN012-0056 study will be eligible to enroll in CN012-0028. The primary objective of the study is to assess the long-term safety and tolerability of KarXT in subjects with psychosis associated with Alzheimer's Disease.",
+   "aggiornato_registro": "2026-11-27",
+   "descrizione_originale": "This is a Phase 3 global, multicenter, 52-week, open-label extension (OLE) rollover study for subjects completing study CN012-0026, CN012-0027 or CN012-0056. Subjects (randomized or non-randomized) who complete the 38-week CN012-0026 study, 14-week CN012-0027 study or 14-week CN012-0056 study will be eligible to enroll in CN012-0028. The primary objective of the study is to assess the long-term safety and tolerability of KarXT in subjects with psychosis associated with Alzheimer's Disease. Psychosis includes delusions, paranoid thoughts and hallucinations.",
    "siti": [
     {
      "nome": "Local Institution - 2303",
@@ -16498,8 +16448,8 @@
     "KarXT",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-10-27",
-   "descrizione_originale": "The purpose of this study is to evaluate the safety and efficacy of KarXT in adult participants with mild to severe Alzheimer's Disease (AD) with moderate to severe psychosis related to AD.",
+   "aggiornato_registro": "2026-11-27",
+   "descrizione_originale": "The purpose of this study is to evaluate the safety and efficacy of KarXT in adult participants with mild to severe Alzheimer's Disease (AD) with moderate to severe psychosis related to AD. Psychosis includes delusions, paranoid thoughts and hallucinations.",
    "siti": [
     {
      "nome": "IRCCS Istituto Centro San Giovanni di Dio Fatebenefratelli",
@@ -20024,7 +19974,7 @@
     "Pridopidine",
     "Placebo"
    ],
-   "aggiornato_registro": "2026-11-19",
+   "aggiornato_registro": "2026-11-27",
    "descrizione_originale": "The goal of this clinical trial is to learn if pridopidine can slow the clinical decline of Huntington's Disease (HD) in adult participants. It will also inform about the safety of pridopidine.\n\nThe main questions the study aims to answer are:\n\nDoes pridopidine slow the overall worsening of HD over 1 year? Does pridopidine slow the worsening of specific aspects of HD over 1 year, namely the clinical progression, the ability to perform daily life activities (functional capacity), the mind's ability to process information (cognition), working of the muscles (motor function), and quality of life?\n\nResearchers will compare the drug pridopidine to a placebo (a look-alike substance that contains no drug) to see if pridopidine works better than placebo to treat HD. During the first year of the study, participants will have the same chance to receive either pridopidine or placebo.\n\nParticipants will:\n\nTake 1 pridopidine or placebo capsule twice daily for 12 months. Visit the clinic 6 times within 1 year for checkups and tests.\n\nAll participants who complete this 1-year placebo-controlled study period will roll over into an additional 2-year study period during which all participants will receive pridopidine treatment, including participants who had received placebo during the first year. During this additional 2-year treatment period participants will visit the clinic a total of 6 times for checkups and tests.",
    "siti": [
     {
